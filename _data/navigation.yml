@@ -1,0 +1,26 @@
+# Site navigation links
+
+- title: About
+  url: /about/
+  excerpt: "About Myself"
+  image: photo.png
+
+- title: Blog
+  url: /blog/
+  excerpt: "My writings"
+  image: 
+
+- title: Resume
+  url: /resume/
+  excerpt: "1 page resume"
+  image: 
+
+- title: Works
+  url: /works/
+  excerpt: "My selected projects"
+  image: 
+
+- title: Hire Me!
+  url: /hireme/
+  excerpt: "Contact me for hiring (full-time or part-time)"
+  image: 
