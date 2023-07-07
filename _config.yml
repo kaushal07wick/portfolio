@@ -23,6 +23,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
 
+theme: skinny-bones
+remote-theme: skinny-bones
 
 # Site owner
 owner: 
