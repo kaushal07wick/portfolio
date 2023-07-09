@@ -1,16 +1,148 @@
 ---
-layout: media
-title: Hire Me
+layout: archive
+title: Hire Me!!
 modified:
 excerpt:
 image:
-  feature: test.jpeg
+  feature:
   teaser:
   thumb:
 ads: false  
 permalink: /hireme/
 ---
 
-Hi, I'm Kaushal Kumar Choudhary!!!
-I'm trying to build this website.
+
+<img src="/images/photo.png" alt="click here" height="1o0px" width="200px" style="align: right;"/>
+
+👋 Hi, I'm Kaushal Kumar Choudhary, a dedicated software engineer with a passion for artificial intelligence and machine learning. My expertise in C/C++, Python, and various frameworks like PyTorch and TensorFlow drive my pursuit of cutting-edge solutions. Let's collaborate and leverage technology for impactful innovation.
+
+<style>
+  .work-experience {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .left {
+    width: 40%;
+    padding-right: 20px;
+  }
+
+  .right {
+    width: 60%;
+    border-left: 2px solid #000000;
+    padding-left: 20px;
+  }
+</style>
+
+<h2>Work Experience</h2>
+
+<div class="work-experience">
+  <div class="left">
+    <h3>IIIT HYDERABAD, HYDERABAD, INDIA</h3>
+    <p><em>Nov 2022 - May 2023</em></p>
+  </div>
+  <div class="right">
+    <ul>
+      <h4>RESEARCH INTERN</h4>
+      <li>Developing Novel Decision Neural Networks for
+safe landing of autonomous drones in urban
+cluttered environments.</li>
+      <li>Researching dynamic, non-linear optimization
+techniques to solve safe landing criteria
+heuristics and ensure successful landings.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="work-experience">
+  <div class="left">
+    <h3>GRENE ROBOTICS, HYDERABAD, INDIA</h3>
+    <p><em>Dec 2022 - Mar 2023</em></p>
+  </div>
+  <div class="right">
+    <ul>
+      <h4>SOFTWARE ENGINEER</h4>
+      <li>Developing an autonomous drone to intercept
+high-speed targets with real-time enemy
+position data from radar-based ground
+stations.</li>
+      <li>Utilizing advanced computer vision techniques
+and control systems for precise tracking and
+interception capabilitie</li>
+    </ul>
+  </div>
+</div>
+
+<div class="work-experience">
+  <div class="left">
+    <h3>University of Hyderabad</h3>
+    <p><em>Jun 2022 - Aug 2022</em></p>
+  </div>
+  <div class="right">
+    <ul>
+      <h3>IASc-INSA-NASI Summer Research Fellow</h3>
+      <li>Researched on Scene-Text Recognition for
+Natural and High Mobiltiy use case.</li>
+      <li>Worked on implementing SOTA models in
+resource constrained devices.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="work-experience">
+  <div class="left">
+    <h3>Technocolabs Software's Inc.</h3>
+    <p><em>May 2022 - Jun 2022</em></p>
+  </div>
+  <div class="right">
+    <ul>
+      <h3>Data Analyst Intern</h3>
+      <li>Processed and refined raw data, conducted
+research to identify the most suitable model for
+the data analysis.</li>
+      <li>Organized team's daily agenda, facilitating
+regular meetings with the team and manager for
+effective collaboration and progress tracking.</li>
+    </ul>
+  </div>
+</div>
+
+
+## Testimonials - Highlights
+
+### Dr. Atul Negi - Dean of Computer Science and AI Lab Head, University of Hyderabad
+He often came to discuss new ideas and techniques with me, and also was able to understand
+research papers and their key concepts. He adapted to the research environment in the lab
+promptly and made good relations with the senior Ph.D. students. He was sufficiently capable of
+implementing some research papers and designing a few experiments to test the algorithms.
+Kaushal is pursuing artificial intelligence with his true passion lying in robotics. As a mentor, I find
+it safe to say that Kaushal is a good enthusiast of this field and has huge potential. His willingness
+to learn allows him to grasp advanced-level concepts of AI & Robotics. I can assert that he has
+good communication skills and connects well with his colleagues and mentors
+[Recommendation Letter](images/Kaushal_Google.pdf)
+
+### Yasin Khan - Technocolabs Software's Inc. & Google LLC.
+Our team grouped him up with a few other interns to complete the company’s major project and we found out that Mr. Kaushal Kumar Choudhary exhibited profound team management and communication skills that helped him throughout the completion of the project.
+
+[Recommendation Letter](images/kkc_reco.pdf)
+
+
+## Contact Information
+
+📧 Email: [kaushalc64@gmail.com](mailto:kaushalc64@gmail.com)
+
+📞 Phone: [+91 7682077931](tel:+917682077931)
+
+## Social Media
+
+[![@kumarkaushal_](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40kumarkaushal_)](https://twitter.com/kumarkaushal_)
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/11kaushalkumar/)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://kaushalforai.vercel.app/)
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kaushal07wick)
+
+---
 

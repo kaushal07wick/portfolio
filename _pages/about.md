@@ -12,12 +12,18 @@ permalink: /about/
 
 <img src="/images/photo.png" alt="click here" height="250px" width="500px" style="align: right;"/>
 
-Hi, I'm Kaushal Kumar Choudhary!!!
+👋 Hi there! 
 
-I am an Aspring Machine Learning and Robotics Engineer, especially in Quadruped Robots and Autonomous Drones.
+I am a software engineer with a passion for artificial intelligence and machine learning. My technical skills include C/C++, Python, PyTorch, TensorFlow, HuggingFace, HTML, CSS, JavaScript, and Flask. During my time at IIIT Hyderabad, I gained experience in Linux, AWS, BASH, GitHub, OpenCV, MATLAB, and SQL.
 
-I am currently a Robotics Research Intern at IIIT Hyderabad, working under Dr. Harikumar Kandath, on Safe Landing of Autonmous Drones in a urban cluttered environment.
+🚀 In one of my projects at Grene Robotics, I delved deep into Transformer architecture, experimenting with its internals. I also contributed to the development of an automated analysis app on GitHub, which summarizes and explains technical aspects of repositories.
 
-I am a final year engineering undergraduate pursuing B.Tech in Artificial Intelligence at Sage University, Indore. I was the core committe member of our techincal club TechNeeti. Apart from studies I was also active in sports and outdoor activities, being a unviersity basketball team captain and active gym member was exhilirating.
+🔭 Additionally, I have worked on exciting projects like using Yolov-8 for real-time traffic sign recognition and contributing to the TensorFlow frontend module for Unifyai/ivy.
 
-I was also a IASc-INSA-NASI Summer Research Fellow at Unviersity of Hyderabad, where I worked under Dr. Atul Negi . Our work was focused on use Computer Vision algorithms, especially Scene-Text Recognition usecase for detecting and recognizing multi-lingual road and traffic sign boards which would provide as additional information stream for self-driving cars navigation system.
+🎓 I am currently pursuing a B.Tech in Artificial Intelligence with a remarkable 9/10 GPA at Sage University. I have also gained practical experience as a data analyst intern at Technocolabs Softwares Inc., where I researched scene-text recognition for resource-constrained devices.
+
+🏀 On a personal note, I have been the captain of my university's basketball team and served as the head coordinator of the Techneeti Club 💻.
+
+📚 I hold certifications in Harvardx CS50's Introduction to Computer Science and LinkedIn Learning's Advanced C Programming. I have also completed the Intermediate level of Machine Learning on Kaggle.
+
+I am excited about new opportunities and collaborations. Let's connect and discuss how I can contribute to your projects! 😊

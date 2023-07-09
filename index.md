@@ -4,6 +4,7 @@ permalink: /
 ---
 
 
-![image](/images/max.jpg)
+![image](/images/bg.jpg)
 
-### Welcome, Good to see you!
+### Welcome, Nice to Meet you!
+

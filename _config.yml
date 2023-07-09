@@ -1,9 +1,9 @@
 # Site wide configuration
 
 title: "Kaushal Choudhary"
-description: "This is a description of my awesome site."
+description: "Unfolding the shear madness of Articial Intelligence Step-by-Step!!"
 logo: # 120x120 px default image used for Twitter summary card
-teaser: phot.png # 400x250 px default teaser image used in image archive grid
+teaser: #ivy.png # 400x250 px default teaser image used in image archive grid
 locale: en
 url:
 feed:
@@ -27,11 +27,11 @@ plugins:
 owner: 
   name: Kaushal Choudhary
   email: kaushalc64@gmail.com
-  twitter:
+  twitter: kumarkaushal_
   google:
     ad-client:
     ad-slot:
-  bio: I am a Machine Learning Geek
+  bio: Break and Reverse-Engineer ML
   avatar: photo.png # 160x160 px image for author byline
   disqus-shortname: 
 

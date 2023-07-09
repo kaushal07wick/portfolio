@@ -2,19 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Sample Post Style Guide • Kaushal Choudhary</title>
-    <meta name="description" content="Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+    <title>LongNet: Scaling to a Billion Tokens😱 • Kaushal Choudhary</title>
+    <meta name="description" content="Microsoft Research Introduces LongNet: A Transformer Variant That Can Scale Sequence Length To More Than 1 Billion Tokens With No Loss In Shorter Sequences
 
 ">
-    <meta name="keywords" content="sample">
+    <meta name="keywords" content="Longnet, Token">
     
     	<!-- Twitter Cards -->
-	<meta name="twitter:title" content="Sample Post Style Guide">
-	<meta name="twitter:description" content="Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+	<meta name="twitter:title" content="LongNet: Scaling to a Billion Tokens😱">
+	<meta name="twitter:description" content="Microsoft Research Introduces LongNet: A Transformer Variant That Can Scale Sequence Length To More Than 1 Billion Tokens With No Loss In Shorter Sequences
 
 ">
-	
-	
+	<meta name="twitter:site" content="@kumarkaushal_">
+	<meta name="twitter:creator" content="@kumarkaushal_">
 	
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:image" content="http://localhost:4000/images/">
@@ -22,8 +22,8 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Sample Post Style Guide">
-	<meta property="og:description" content="Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+	<meta property="og:title" content="LongNet: Scaling to a Billion Tokens😱">
+	<meta property="og:description" content="Microsoft Research Introduces LongNet: A Transformer Variant That Can Scale Sequence Length To More Than 1 Billion Tokens With No Loss In Shorter Sequences
 
 ">
 	<meta property="og:url" content="http://localhost:4000/articles/test/">
@@ -96,141 +96,26 @@
   </nav><!-- /.breadcrumbs -->
 
 		<div class="page-title">
-			<h1>Sample Post Style Guide</h1>
+			<h1>LongNet: Scaling to a Billion Tokens😱</h1>
 		</div>
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
-				<p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
+				<h2 id="microsoft-research-introduces-longnet-a-transformer-variant-that-can-scale-sequence-length-to-more-than-1-billion-tokens-with-no-loss-in-shorter-sequences">Microsoft Research Introduces LongNet: A Transformer Variant That Can Scale Sequence Length To More Than 1 Billion Tokens With No Loss In Shorter Sequences</h2>
 
-<nav class="toc">
-<ul id="markdown-toc">
-  <li><a href="#heading-2-lorem-ipsum-dolor-sit-amet-test-link-adipiscing-elit-this-is-strong-nullam-dignissim-convallis-est-quisque-aliquam" id="markdown-toc-heading-2-lorem-ipsum-dolor-sit-amet-test-link-adipiscing-elit-this-is-strong-nullam-dignissim-convallis-est-quisque-aliquam">Heading 2: Lorem ipsum dolor sit amet, test link adipiscing elit. <strong>This is strong</strong>. Nullam dignissim convallis est. Quisque aliquam.</a></li>
-  <li><a href="#list-types" id="markdown-toc-list-types">List Types</a></li>
-  <li><a href="#tables" id="markdown-toc-tables">Tables</a></li>
-  <li><a href="#code-snippets" id="markdown-toc-code-snippets">Code Snippets</a></li>
-  <li><a href="#buttons" id="markdown-toc-buttons">Buttons</a></li>
-</ul>
+<p>Scaling neural networks has been popular in recent years. Several potent deep networks are produced with the depth largely increased for exponential expressivity. Then, the hidden dimension is effectively expanded using sparse MoE models and model parallelism techniques. As the last atomic dimension of the neural network, the sequence length should be as long as possible. There are several benefits when the sequence length restriction is removed. First, it gives models a sizable memory and receptive field, enabling them to interact with people and the outside environment. Second, lengthier contexts include more intricate causal chains and thought processes, which models may use in training data.</p>
 
-</nav>
+<p><img src="/images/longnet.png" alt="click here" height="1200px" width="1000px" style="align: center;" /></p>
 
-<h2 id="heading-2-lorem-ipsum-dolor-sit-amet-test-link-adipiscing-elit-this-is-strong-nullam-dignissim-convallis-est-quisque-aliquam">Heading 2: Lorem ipsum dolor sit amet, test link adipiscing elit. <strong>This is strong</strong>. Nullam dignissim convallis est. Quisque aliquam.</h2>
+<p>On the other hand, short dependence has more erroneous correlations, which is detrimental to generalization. Third, it allows for exploring the boundaries of in-context learning, representing a paradigm change for many-shot education since an extraordinarily extended context might lessen catastrophic forgetting in the models. Finding the ideal balance between computational complexity and model expressivity is the main difficulty in scaling up sequence length.</p>
 
-<h3 id="heading-3-lorem-ipsum-dolor-sit-amet-test-link-adipiscing-elit-this-is-strong-nullam-dignissim-convallis-est-quisque-aliquam">Heading 3: Lorem ipsum dolor sit amet, test link adipiscing elit. <strong>This is strong</strong>. Nullam dignissim convallis est. Quisque aliquam.</h3>
+<p>The main goal of RNN-style models is to extend the length. The parallelization during training, crucial in long-sequence modeling, is nonetheless constrained by its sequential character. Sequence modeling has more recently found favor with state space models. It may function as a CNN during training and switch to an effective RNN during testing. They perform well at long-range benchmarks but on shorter lengths. They fall short of Transformers. This is mostly due to the model’s expressivity. Reducing the difficulty of Transformers, or the quadratic complexity of self-attention, is another aspect of scaling the sequence length. Implementing sliding windows or convolution modules over the attention is simple to make the complexity almost linear. However, doing so costs memory for the early tokens, causing one to overlook the prompts at the start of the series. Sp sparse attention decreases computation by sparsifying the attention matrix while keeping the ability to recall distant information. Obtains O(N (√ N) d) time complexity, for instance, using a fixed sparse pattern.</p>
 
-<h4 id="heading-4-lorem-ipsum-dolor-sit-amet-test-link-adipiscing-elit-this-is-strong-nullam-dignissim-convallis-est-quisque-aliquam">Heading 4: Lorem ipsum dolor sit amet, test link adipiscing elit. <strong>This is strong</strong>. Nullam dignissim convallis est. Quisque aliquam.</h4>
+<p>The learnable patterns, in addition to the heuristic patterns, work well for sparse attention. Low-rank attention, kernel-based techniques, downsampling strategies, recurrent models, and retrieval-based techniques are a few more effective Transformer-based versions. Despite this, none have been scaled to 1 billion tokens. They successfully scale the sequence length to 1 billion tokens in their study. Researchers from Microsoft Research developed LONGNET, which swaps the focus of conventional Transformers with a cutting-edge element known as dilated attention. The main design tenet is that attention allocation falls off rapidly as the distance between tokens increases. They demonstrate that it achieves a logarithm dependence between tokens and linear processing complexity.</p>
 
-<h5 id="heading-5-lorem-ipsum-dolor-sit-amet-test-link-adipiscing-elit-this-is-strong-nullam-dignissim-convallis-est-quisque-aliquam">Heading 5: Lorem ipsum dolor sit amet, test link adipiscing elit. <strong>This is strong</strong>. Nullam dignissim convallis est. Quisque aliquam.</h5>
+<p>This addresses the conflict between the accessibility of all tokens and the finite amount of attention resources. LONG NET may be converted into a dense Transformer in the implementation, which supports the standard Transformer optimizations (such as kernel fusion, quantization, and distributed training) without problems. By using linear complexity, LONGNET can divide the training among nodes and overcome the limitations of both CPU and memory. Since the vanilla Transformer suffers from quadratic complexity, this enables us to efficiently scale up the sequence length to 1B tokens with practically constant runtime.</p>
 
-<h6 id="heading-6-lorem-ipsum-dolor-sit-amet-test-link-adipiscing-elit-this-is-strong-nullam-dignissim-convallis-est-quisque-aliquam">Heading 6: Lorem ipsum dolor sit amet, test link adipiscing elit. <strong>This is strong</strong>. Nullam dignissim convallis est. Quisque aliquam.</h6>
-
-<h3 id="body-text">Body text</h3>
-
-<p>Lorem ipsum dolor sit amet, test link adipiscing elit. <strong>This is strong</strong>. Nullam dignissim convallis est. Quisque aliquam.</p>
-
-<p><em>This is emphasized</em>. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times <cite>(That’s a citation)</cite>. <u>Underline</u>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
-
-<p>HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.</abbr></abbr></p>
-
-<h3 id="blockquotes">Blockquotes</h3>
-
-<blockquote>
-  <p>Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.</p>
-</blockquote>
-
-<blockquote>
-  <p><cite>First Lastname, <em>The Greatest Article</em></cite></p>
-</blockquote>
-
-<h2 id="list-types">List Types</h2>
-
-<h3 id="ordered-lists">Ordered Lists</h3>
-
-<ol>
-  <li>Item one
-    <ol>
-      <li>sub item one</li>
-      <li>sub item two</li>
-      <li>sub item three</li>
-    </ol>
-  </li>
-  <li>Item two</li>
-</ol>
-
-<h3 id="unordered-lists">Unordered Lists</h3>
-
-<ul>
-  <li>Item one</li>
-  <li>Item two</li>
-  <li>Item three</li>
-</ul>
-
-<h2 id="tables">Tables</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Header1</th>
-      <th style="text-align: center">Header2</th>
-      <th style="text-align: right">Header3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">cell1</td>
-      <td style="text-align: center">cell2</td>
-      <td style="text-align: right">cell3</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">cell4</td>
-      <td style="text-align: center">cell5</td>
-      <td style="text-align: right">cell6</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td style="text-align: left">cell1</td>
-      <td style="text-align: center">cell2</td>
-      <td style="text-align: right">cell3</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">cell4</td>
-      <td style="text-align: center">cell5</td>
-      <td style="text-align: right">cell6</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="code-snippets">Code Snippets</h2>
-
-<p>Syntax highlighting via Rouge</p>
-
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#container</span> <span class="p">{</span>
-	<span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>  
-	<span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">-240px</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span>  
-	<span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>Non Pygments code example</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div id="awesome"&gt;
-		&lt;p&gt;This is great isn't it?&lt;/p&gt;
-&lt;/div&gt;
-</code></pre></div></div>
-
-<h2 id="buttons">Buttons</h2>
-
-<p>Make any link standout more when applying the <code class="language-plaintext highlighter-rouge">.btn</code> class.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn"</span><span class="nt">&gt;</span>Default Button<span class="nt">&lt;/a&gt;</span>
-</code></pre></div></div>
-
-<p><a href="#" class="btn">.btn</a>
-<a href="#" class="btn-inverse">.btn-inverse</a>
-<a href="#" class="btn-info">.btn-info</a>
-<a href="#" class="btn-warning">.btn-warning</a>
-<a href="#" class="btn-danger">.btn-danger</a>
-<a href="#" class="btn-success">.btn-success</a></p>
+<p>Check out the <a href="https://arxiv.org/abs/2307.02486" style="color: darkred;">Paper</a> and
+<a href="https://github.com/microsoft/torchscale" style="color: darkred;">GitHub Code</a>.</p>
 
 				<hr />
 				<footer class="page-footer">
@@ -241,10 +126,10 @@
 </div><!-- ./author-image -->
 <div class="author-content">
 	<h3 class="author-name" >Written by <span itemprop="author">Kaushal Choudhary</span></h3>
-	<p class="author-bio">I am a Machine Learning Geek</p>
+	<p class="author-bio">Break and Reverse-Engineer ML</p>
 </div><!-- ./author-content -->
 					<div class="inline-btn">
-	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Sample%20Post%20Style%20Guide&amp;url=http://localhost:4000/articles/test/&amp;via=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=LongNet:%20Scaling%20to%20a%20Billion%20Tokens😱&amp;url=http://localhost:4000/articles/test/&amp;via=kumarkaushal_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
 	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/articles/test/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
 	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=http://localhost:4000/articles/test/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
 </div><!-- /.share-this -->
@@ -279,12 +164,6 @@
       <footer role="contentinfo" id="site-footer">
 	<nav role="navigation" class="menu bottom-menu">
 		<ul class="menu-item">
-		
-      
-			<li><a href="http://localhost:4000/contact/" >Contact Me</a></li>
-		
-      
-			<li><a href="http://localhost:4000/social/" >Social</a></li>
 		
 		</ul>
 	</nav><!-- /.bottom-menu -->
