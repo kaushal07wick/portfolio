@@ -23,7 +23,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
 
-
 # Site owner
 owner: 
   name: Kaushal Choudhary
