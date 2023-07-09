@@ -4,7 +4,7 @@ permalink: /
 ---
 
 
-![image](/images/bg.jpg)
+![image](/images/alien.jpg)
 
 ### Welcome, Nice to Meet you!
 
