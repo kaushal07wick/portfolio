@@ -1,4 +1,167 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-02T00:00:33+05:30</updated><id>http://localhost:4000/atom.xml</id><title type="html">Kaushal Choudhary</title><subtitle>Unfolding the shear madness of Articial Intelligence Step-by-Step!!</subtitle><entry><title type="html">Personal Career Guide</title><link href="http://localhost:4000/articles1/works5/" rel="alternate" type="text/html" title="Personal Career Guide" /><published>2023-07-09T00:00:00+05:30</published><updated>2023-07-09T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works5</id><content type="html" xml:base="http://localhost:4000/articles1/works5/"></content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Deep Learning" /><category term="Transformers" /><summary type="html">A Personal Career Growth Bot</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22pcr.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22pcr.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Github Analysis with OpenAI</title><link href="http://localhost:4000/articles1/works4/" rel="alternate" type="text/html" title="Github Analysis with OpenAI" /><published>2023-07-09T00:00:00+05:30</published><updated>2023-07-09T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works4</id><content type="html" xml:base="http://localhost:4000/articles1/works4/"></content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Open-source" /><category term="ML" /><category term="Test-driven developement" /><summary type="html">Github Repo Analysis using OpenAI and Langchain</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22droidtocat.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22droidtocat.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ivy Contribution</title><link href="http://localhost:4000/articles1/works1/" rel="alternate" type="text/html" title="Ivy Contribution" /><published>2023-07-09T00:00:00+05:30</published><updated>2023-07-09T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works1</id><content type="html" xml:base="http://localhost:4000/articles1/works1/"></content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Open-source" /><category term="ML" /><category term="Test-driven developement" /><summary type="html">My Major Open-Source Contribution</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22ivy.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22ivy.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Project Netra</title><link href="http://localhost:4000/articles1/works2/" rel="alternate" type="text/html" title="Project Netra" /><published>2023-07-09T00:00:00+05:30</published><updated>2023-07-09T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works2</id><content type="html" xml:base="http://localhost:4000/articles1/works2/"></content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Open-source" /><category term="ML" /><category term="Test-driven developement" /><summary type="html">Information Stream for Self-Driving Car</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22isfsdc1.jpg%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22isfsdc1.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tranformer Explored</title><link href="http://localhost:4000/articles1/works3/" rel="alternate" type="text/html" title="Tranformer Explored" /><published>2023-07-09T00:00:00+05:30</published><updated>2023-07-09T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works3</id><content type="html" xml:base="http://localhost:4000/articles1/works3/"></content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Deep Learning" /><category term="Transformers" /><summary type="html">The Transformer Architecture Explored in-Depth</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22Trans.webp%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22Trans.webp%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">LongNet: Scaling to a Billion Tokens😱</title><link href="http://localhost:4000/articles/test/" rel="alternate" type="text/html" title="LongNet: Scaling to a Billion Tokens😱" /><published>2023-07-07T00:00:00+05:30</published><updated>2023-07-07T00:00:00+05:30</updated><id>http://localhost:4000/articles/test</id><content type="html" xml:base="http://localhost:4000/articles/test/">&lt;h2 id=&quot;microsoft-research-introduces-longnet-a-transformer-variant-that-can-scale-sequence-length-to-more-than-1-billion-tokens-with-no-loss-in-shorter-sequences&quot;&gt;Microsoft Research Introduces LongNet: A Transformer Variant That Can Scale Sequence Length To More Than 1 Billion Tokens With No Loss In Shorter Sequences&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-02T12:46:04+05:30</updated><id>http://localhost:4000/atom.xml</id><title type="html">Kaushal Choudhary</title><subtitle>Unfolding the shear madness of Articial Intelligence Step-by-Step!!</subtitle><entry><title type="html">LLM viewed from a Non-tech individual</title><link href="http://localhost:4000/articles/blog2/" rel="alternate" type="text/html" title="LLM viewed from a Non-tech individual" /><published>2023-09-01T00:00:00+05:30</published><updated>2023-09-01T00:00:00+05:30</updated><id>http://localhost:4000/articles/blog2</id><content type="html" xml:base="http://localhost:4000/articles/blog2/">&lt;p&gt;Read this if you are a non-technical guy with curiousity of child for LLM’s.&lt;/p&gt;
+
+&lt;p&gt;In today’s fast-paced business environment, staying ahead of the competition requires leveraging cutting-edge technologies and innovative solutions. One such solution that has gained significant traction in recent times is Large Language Models (LLMs). LLMs have the potential to transform the way organizations operate, and their impact is being felt across industries. This article will provide an in-depth overview of LLMs, their features, capabilities, and applications. We will also explore the benefits and limitations of LLMs and discuss the future outlook of this technology.&lt;/p&gt;
+
+&lt;h2 id=&quot;features-and-capabilities-of-llms&quot;&gt;Features and Capabilities of LLMs&lt;/h2&gt;
+
+&lt;p&gt;LLMs are a class of artificial intelligence models that are specifically designed to process and generate human-like language. These models are trained on massive datasets of text, which enables them to learn patterns and relationships within languages. The following are some of the key features and capabilities of LLMs:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Natural Language Understanding (NLU):&lt;/strong&gt; LLMs are equipped with NLU capabilities that allow them to comprehend and interpret human language. This feature enables LLMs to extract meaning and context from text data, which is essential for applications such as sentiment analysis, question-answering, and summarization.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Natural Language Generation (NLG):&lt;/strong&gt; LLMs can generate human-like text, which is often indistinguishable from text written by humans. This capability has numerous applications, including content creation, language translation, and chatbots.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Contextual Understanding:&lt;/strong&gt; LLMs can understand context, which is critical for applications that require nuanced and personalized responses. For instance, a chatbot powered by an LLM can understand the context of a conversation and respond accordingly.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Adaptive Learning:&lt;/strong&gt; LLMs are designed to learn from feedback, which enables them to improve their performance over time. This adaptive learning capability ensures that LLMs remain accurate and relevant even as language evolves.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;most-popular-llms&quot;&gt;Most popular LLM’s&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/pop.png&quot; alt=&quot;click here&quot; height=&quot;1200px&quot; width=&quot;1000px&quot; style=&quot;align: center;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;applications-of-llms&quot;&gt;Applications of LLMs&lt;/h2&gt;
+
+&lt;p&gt;The versatility of LLMs makes them applicable to a wide range of industries and use cases. Some of the most common applications of LLMs include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Chatbots:&lt;/strong&gt; LLMs can be used to create intelligent chatbots that can engage with customers, answer queries, and resolve issues. Chatbots powered by LLMs offer several advantages, including reduced response times, improved accuracy, and enhanced customer experience.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Content Creation:&lt;/strong&gt; LLMs can generate high-quality content quickly and efficiently. This capability has numerous applications, including content marketing, social media management, and journalism.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Language Translation:&lt;/strong&gt; LLMs can translate text from one language to another, which has numerous applications in fields such as diplomacy, tourism, and e-commerce.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Sentiment Analysis:&lt;/strong&gt; LLMs can analyze text data to determine sentiment, which is crucial for businesses looking to gauge customer opinion and sentiment.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Question Answering:&lt;/strong&gt; LLMs can answer questions based on the information they have been trained on, which has numerous applications in areas such as customer support and tutoring.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;benefits-of-llms&quot;&gt;Benefits of LLMs&lt;/h2&gt;
+
+&lt;p&gt;The benefits of LLMs are numerous, and they include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Time Efficiency:&lt;/strong&gt; LLMs can process and generate text at incredible speeds, reducing the time required for manual processing and creation. This efficiency can lead to cost savings and increased productivity.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Improved Accuracy:&lt;/strong&gt; LLMs can accurately analyze and generate language, minimizing errors and improving overall quality. This accuracy is critical for applications where precision is paramount.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Enhanced Personalization:&lt;/strong&gt; LLMs can be tailored to individual preferences, enabling personalized interactions and communications. Personalization can lead to higher levels of customer satisfaction and loyalty.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Cost Savings:&lt;/strong&gt; LLMs can reduce costs associated with manual labor, improving profitability and efficiency.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;limitations-of-llms&quot;&gt;Limitations of LLMs&lt;/h2&gt;
+
+&lt;p&gt;While LLMs offer numerous benefits, they also have some limitations. Some of the key limitations include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Training Data:&lt;/strong&gt; LLMs are only as good as the data they are trained on. Biases in training data can result in biases in the output generated by LLMs.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Ethical Concerns:&lt;/strong&gt; LLMs raise ethical concerns related to privacy, bias, and job displacement. Organizations must address these concerns when implementing LLMs.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Limited Domain Knowledge:&lt;/strong&gt; LLMs are domain-specific, which means they may not be effective outside their area of expertise.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Vulnerability to Attacks:&lt;/strong&gt; LLMs can be vulnerable to attacks such as phishing and spoofing, which can compromise their integrity.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;future-outlook-of-llms&quot;&gt;Future Outlook of LLMs&lt;/h2&gt;
+
+&lt;p&gt;The future outlook of LLMs is promising, with numerous opportunities for growth and expansion. Some of the trends that are expected to shape the future of LLMs include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Multimodal Language Processing:&lt;/strong&gt; Future LLMs will be able to process and generate multimodal data, including images, videos, and audio.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Explainability and Interpretability:&lt;/strong&gt; There will be an increasing focus on developing LLMs that can provide clear explanations and interpretations of their decision-making processes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Edge AI:&lt;/strong&gt; With the proliferation of edge devices, LLMs will be deployed on edge devices, enabling faster processing and reduced latency.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Human-AI Collaboration:&lt;/strong&gt; Future LLMs will be designed to collaborate with humans, enabling hybrid intelligence systems that leverage the strengths of both humans and machines.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Large Language Models (LLMs) have the potential to transform the way organizations operate, and their impact is being felt across industries. From chatbots and content creation to language translation and sentiment analysis, LLMs offer numerous applications that can improve efficiency, accuracy, and personalization. However, LLMs also have limitations, including biases, ethical concerns, limited domain knowledge, and vulnerability to attacks. Despite these limitations, the future outlook of LLMs is promising, with numerous opportunities for growth and expansion. As AI continues to evolve, LLMs will play an increasingly important role in shaping our future.&lt;/p&gt;</content><author><name></name></author><category term="articles" /><category term="Longnet" /><category term="Token" /><summary type="html">Read this if you are a non-technical guy with curiousity of child for LLM’s.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3Enil,%20%22teaser%22=%3E%22closed-vs-open-source-language-models.webp%22,%20%22thumb%22=%3Enil%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22feature%22=%3Enil,%20%22teaser%22=%3E%22closed-vs-open-source-language-models.webp%22,%20%22thumb%22=%3Enil%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">AI Psychaitrist</title><link href="http://localhost:4000/articles1/works5/" rel="alternate" type="text/html" title="AI Psychaitrist" /><published>2023-07-09T00:00:00+05:30</published><updated>2023-07-09T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works5</id><content type="html" xml:base="http://localhost:4000/articles1/works5/">&lt;h1 id=&quot;career-growth-guide-app-empowering-professionals-with-ai-driven-insights&quot;&gt;Career Growth Guide App: Empowering Professionals with AI-Driven Insights&lt;/h1&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;Human’s nowadays easily tend to get depressed, think too much about someone’s saying, lot of mental health issues are popping up.
+This is a small step towards using the AI to democratize and help individuals who are too afraid to talk to doctor/stranger/therapist about thier issue, use AI at thier hand to help themselves.&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+
+&lt;p&gt;1 . It is the first iteration, so basically it only has a text-to-text communication channel.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;It is heavily guardrailed to never suggest a medication/drug to any user.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If it senses the condition is too worse to handle if provide ways to cope up, and then speak with a proper medical proffessional.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;user-interface&quot;&gt;User Interface&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Screenshot (10).png&quot; alt=&quot;click here&quot; height=&quot;1200px&quot; width=&quot;1000px&quot; style=&quot;align: center;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;after-entering-the-openai-key&quot;&gt;After entering the OpenAI key.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Screenshot (11).png&quot; alt=&quot;click here&quot; height=&quot;1200px&quot; width=&quot;1000px&quot; style=&quot;align: center;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;This small project’s aim was to get to know more on the health application of AI, and thier performance.&lt;/p&gt;
+
+&lt;p&gt;This project was a part of &lt;a href=&quot;https://work.mercor.io/hackathons&quot; style=&quot;color: darkred;&quot;&gt;Mercor Hackathon&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thanks for Reading.&lt;/p&gt;</content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Deep Learning" /><category term="Transformers" /><summary type="html">A Personal Mental Health Consultant</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22pcr.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22pcr.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ivy Contribution</title><link href="http://localhost:4000/articles1/works1/" rel="alternate" type="text/html" title="Ivy Contribution" /><published>2023-07-09T00:00:00+05:30</published><updated>2023-07-09T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works1</id><content type="html" xml:base="http://localhost:4000/articles1/works1/">&lt;h2 id=&quot;open-source-contribution-to-ivy&quot;&gt;Open-Source Contribution to IVY.&lt;/h2&gt;
+
+&lt;p&gt;The contirbution was done to better understand a prominent ML library in making.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Screenshot (12).png&quot; alt=&quot;click here&quot; height=&quot;1200px&quot; width=&quot;1000px&quot; style=&quot;align: center;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the link of the merged PR.&lt;/p&gt;
+
+&lt;p&gt;Please visit this &lt;a href=&quot;https://github.com/unifyai/ivy/pull/13492&quot; style=&quot;color: darkred;&quot;&gt;Merged PR&lt;/a&gt; for the work.&lt;/p&gt;</content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Open-source" /><category term="ML" /><category term="Test-driven developement" /><summary type="html">My Major Open-Source Contribution</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22ivy.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22ivy.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tranformer Explored</title><link href="http://localhost:4000/articles1/works3/" rel="alternate" type="text/html" title="Tranformer Explored" /><published>2023-07-09T00:00:00+05:30</published><updated>2023-07-09T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works3</id><content type="html" xml:base="http://localhost:4000/articles1/works3/">&lt;h2 id=&quot;in-depth-working-of-transformers-colab-version&quot;&gt;In depth working of Transformers (Colab Version).&lt;/h2&gt;
+
+&lt;p&gt;The project is Self-Explanatory and heavily commented, so it would be easy to understand.&lt;/p&gt;
+
+&lt;p&gt;Please visit this &lt;a href=&quot;https://colab.research.google.com/drive/1UKQdCM1LyScbmRshXAffyraKDTbUTGak&quot; style=&quot;color: darkred;&quot;&gt;Colab Notebook&lt;/a&gt; for the work.&lt;/p&gt;
+
+&lt;h2 id=&quot;notice&quot;&gt;Notice:&lt;/h2&gt;
+
+&lt;p&gt;An in-depth explanation and working as well some modified version of Transfomer Architecture (Github Version) is coming soon.
+Stay Tuned.&lt;/p&gt;
+
+&lt;p&gt;Follow me on twitter for more updates.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/kumarkaushal_&quot;&gt;&lt;img src=&quot;https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&amp;amp;label=Follow%20%40kumarkaushal_&quot; alt=&quot;@kumarkaushal_&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Deep Learning" /><category term="Transformers" /><summary type="html">The Transformer Architecture Explored in-Depth</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22Trans.webp%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22Trans.webp%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">LongNet: Scaling to a Billion Tokens😱</title><link href="http://localhost:4000/articles/test/" rel="alternate" type="text/html" title="LongNet: Scaling to a Billion Tokens😱" /><published>2023-07-07T00:00:00+05:30</published><updated>2023-07-07T00:00:00+05:30</updated><id>http://localhost:4000/articles/test</id><content type="html" xml:base="http://localhost:4000/articles/test/">&lt;h2 id=&quot;microsoft-research-introduces-longnet-a-transformer-variant-that-can-scale-sequence-length-to-more-than-1-billion-tokens-with-no-loss-in-shorter-sequences&quot;&gt;Microsoft Research Introduces LongNet: A Transformer Variant That Can Scale Sequence Length To More Than 1 Billion Tokens With No Loss In Shorter Sequences&lt;/h2&gt;
 
 &lt;p&gt;Scaling neural networks has been popular in recent years. Several potent deep networks are produced with the depth largely increased for exponential expressivity. Then, the hidden dimension is effectively expanded using sparse MoE models and model parallelism techniques. As the last atomic dimension of the neural network, the sequence length should be as long as possible. There are several benefits when the sequence length restriction is removed. First, it gives models a sizable memory and receptive field, enabling them to interact with people and the outside environment. Second, lengthier contexts include more intricate causal chains and thought processes, which models may use in training data.&lt;/p&gt;
 
