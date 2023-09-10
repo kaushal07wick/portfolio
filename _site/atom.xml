@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-03T13:59:41+05:30</updated><id>http://localhost:4000/atom.xml</id><title type="html">Kaushal Choudhary</title><subtitle>Unfolding the shear madness of Articial Intelligence Step-by-Step!!</subtitle><entry><title type="html">LLM viewed from a Non-tech individual</title><link href="http://localhost:4000/articles/blog2/" rel="alternate" type="text/html" title="LLM viewed from a Non-tech individual" /><published>2023-09-01T00:00:00+05:30</published><updated>2023-09-01T00:00:00+05:30</updated><id>http://localhost:4000/articles/blog2</id><content type="html" xml:base="http://localhost:4000/articles/blog2/">&lt;p&gt;Read this if you are a non-technical guy with curiousity of child for LLM’s.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-10T17:47:30+05:30</updated><id>http://localhost:4000/atom.xml</id><title type="html">Kaushal Choudhary</title><subtitle>Unfolding the shear madness of Articial Intelligence Step-by-Step!!</subtitle><entry><title type="html">IntelliEmacs</title><link href="http://localhost:4000/articles1/works5/" rel="alternate" type="text/html" title="IntelliEmacs" /><published>2023-09-05T00:00:00+05:30</published><updated>2023-09-05T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works5</id><content type="html" xml:base="http://localhost:4000/articles1/works5/">&lt;h2 id=&quot;architecture-and-motivation&quot;&gt;Architecture and Motivation&lt;/h2&gt;
+
+&lt;p&gt;This project was a intial try to experiment with code assistants such as &lt;a href=&quot;https://github.com/features/copilot&quot; style=&quot;color: darkred;&quot;&gt;Github Copilot&lt;/a&gt;, working with emacs editor.&lt;/p&gt;
+
+&lt;p&gt;It uses &lt;a href=&quot;https://github.com/replit/ReplitLM/tree/main&quot; style=&quot;color: darkred;&quot;&gt;Replit-3b-v1 model&lt;/a&gt; for code suggestions.&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;It is easily integrated with AI, and works without any extra prompting.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Just put the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;copilot&lt;/code&gt; in the command bar.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It is first iteration so some latencies and error could pop up.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;user-interface&quot;&gt;User Interface&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/demo1.gif&quot; alt=&quot;click here&quot; height=&quot;1200px&quot; width=&quot;1000px&quot; style=&quot;align: center;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Feel free to look up the open-source code at &lt;a href=&quot;https://github.com/kaushal07wick/Emac-Assist&quot; style=&quot;color: darkred;&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;thanks-for-reading&quot;&gt;Thanks for Reading.&lt;/h3&gt;</content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Deep Learning" /><category term="Transformers" /><summary type="html">A code-assistant for emacs lovers</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22emacs.webp%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22emacs.webp%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">LLM viewed from a Non-tech individual</title><link href="http://localhost:4000/articles/blog2/" rel="alternate" type="text/html" title="LLM viewed from a Non-tech individual" /><published>2023-09-01T00:00:00+05:30</published><updated>2023-09-01T00:00:00+05:30</updated><id>http://localhost:4000/articles/blog2</id><content type="html" xml:base="http://localhost:4000/articles/blog2/">&lt;p&gt;Read this if you are a non-technical guy with curiousity of child for LLM’s.&lt;/p&gt;
 
 &lt;p&gt;In today’s fast-paced business environment, staying ahead of the competition requires leveraging cutting-edge technologies and innovative solutions. One such solution that has gained significant traction in recent times is Large Language Models (LLMs). LLMs have the potential to transform the way organizations operate, and their impact is being felt across industries. This article will provide an in-depth overview of LLMs, their features, capabilities, and applications. We will also explore the benefits and limitations of LLMs and discuss the future outlook of this technology.&lt;/p&gt;
 
@@ -106,9 +132,48 @@
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;Large Language Models (LLMs) have the potential to transform the way organizations operate, and their impact is being felt across industries. From chatbots and content creation to language translation and sentiment analysis, LLMs offer numerous applications that can improve efficiency, accuracy, and personalization. However, LLMs also have limitations, including biases, ethical concerns, limited domain knowledge, and vulnerability to attacks. Despite these limitations, the future outlook of LLMs is promising, with numerous opportunities for growth and expansion. As AI continues to evolve, LLMs will play an increasingly important role in shaping our future.&lt;/p&gt;</content><author><name></name></author><category term="articles" /><category term="Longnet" /><category term="Token" /><summary type="html">Read this if you are a non-technical guy with curiousity of child for LLM’s.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3Enil,%20%22teaser%22=%3E%22closed-vs-open-source-language-models.webp%22,%20%22thumb%22=%3Enil%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22feature%22=%3Enil,%20%22teaser%22=%3E%22closed-vs-open-source-language-models.webp%22,%20%22thumb%22=%3Enil%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">AI Psychaitrist</title><link href="http://localhost:4000/articles1/works5/" rel="alternate" type="text/html" title="AI Psychaitrist" /><published>2023-07-09T00:00:00+05:30</published><updated>2023-07-09T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works5</id><content type="html" xml:base="http://localhost:4000/articles1/works5/">&lt;h1 id=&quot;career-growth-guide-app-empowering-professionals-with-ai-driven-insights&quot;&gt;Career Growth Guide App: Empowering Professionals with AI-Driven Insights&lt;/h1&gt;
+&lt;p&gt;Large Language Models (LLMs) have the potential to transform the way organizations operate, and their impact is being felt across industries. From chatbots and content creation to language translation and sentiment analysis, LLMs offer numerous applications that can improve efficiency, accuracy, and personalization. However, LLMs also have limitations, including biases, ethical concerns, limited domain knowledge, and vulnerability to attacks. Despite these limitations, the future outlook of LLMs is promising, with numerous opportunities for growth and expansion. As AI continues to evolve, LLMs will play an increasingly important role in shaping our future.&lt;/p&gt;</content><author><name></name></author><category term="articles" /><category term="Longnet" /><category term="Token" /><summary type="html">Read this if you are a non-technical guy with curiousity of child for LLM’s.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3Enil,%20%22teaser%22=%3E%22closed-vs-open-source-language-models.webp%22,%20%22thumb%22=%3Enil%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22feature%22=%3Enil,%20%22teaser%22=%3E%22closed-vs-open-source-language-models.webp%22,%20%22thumb%22=%3Enil%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">LangDB</title><link href="http://localhost:4000/articles1/works4/" rel="alternate" type="text/html" title="LangDB" /><published>2023-08-05T00:00:00+05:30</published><updated>2023-08-05T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works4</id><content type="html" xml:base="http://localhost:4000/articles1/works4/">&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
 
-&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Database plays a crucical part in any firm, be it finance, law, tech or event management. The data in today’s world is called the new oil. Managing and maintaining a SQL database with millions of data still stays in the hand of a technical guy, but querying it and gaining insights should be easy for anyone in the world.&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+
+&lt;p&gt;1 . It is the first iteration, so basically it only has a text-to-text communication channel.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;It seemlessly converts the natural language query (even though you might have to know a little about the tables present in the data for better accuracy) into proper MS SQL commands to query the backend database.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It automatically adjusts it’s commands according to the query.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;user-interface&quot;&gt;User Interface&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ss14.png&quot; alt=&quot;click here&quot; height=&quot;1200px&quot; width=&quot;1000px&quot; style=&quot;align: center;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;querying-the-database-with-a-general-questions-note-that-i-know-which-table-contains-the-relevant-info&quot;&gt;Querying the database with a general questions (note that I know which table contains the relevant info)&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ss16.png&quot; alt=&quot;click here&quot; height=&quot;1200px&quot; width=&quot;1000px&quot; style=&quot;align: center;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;This small project’s was to build a chat-bot that can chat over the database providing a natural language query interface to the user.&lt;/p&gt;
+
+&lt;p&gt;This project was a part of a freelance gig at &lt;a href=&quot;https://www.pearlthoughts.com/&quot; style=&quot;color: darkred;&quot;&gt;PearlThoughts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Feel free to look up the open-source code at &lt;a href=&quot;https://github.com/kaushal07wick/sqlagent&quot; style=&quot;color: darkred;&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks for Reading.&lt;/p&gt;</content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="SQL" /><category term="Langchain" /><category term="OpenAI" /><summary type="html">Natural language query for SQL</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22sqlai.jpg%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22sqlai.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ivy Contribution</title><link href="http://localhost:4000/articles1/works1/" rel="alternate" type="text/html" title="Ivy Contribution" /><published>2023-07-09T00:00:00+05:30</published><updated>2023-07-09T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works1</id><content type="html" xml:base="http://localhost:4000/articles1/works1/">&lt;h2 id=&quot;open-source-contribution-to-ivy&quot;&gt;Open-Source Contribution to IVY.&lt;/h2&gt;
+
+&lt;p&gt;The contirbution was done to better understand a prominent ML library in making.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Screenshot (12).png&quot; alt=&quot;click here&quot; height=&quot;1200px&quot; width=&quot;1000px&quot; style=&quot;align: center;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the link of the merged PR.&lt;/p&gt;
+
+&lt;p&gt;Please visit this &lt;a href=&quot;https://github.com/unifyai/ivy/pull/13492&quot; style=&quot;color: darkred;&quot;&gt;Merged PR&lt;/a&gt; for the work.&lt;/p&gt;</content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Open-source" /><category term="ML" /><category term="Test-driven developement" /><summary type="html">My Major Open-Source Contribution</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22ivy.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22ivy.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">ClarityCounsel</title><link href="http://localhost:4000/articles1/works3/" rel="alternate" type="text/html" title="ClarityCounsel" /><published>2023-07-09T00:00:00+05:30</published><updated>2023-07-09T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works3</id><content type="html" xml:base="http://localhost:4000/articles1/works3/">&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
 
 &lt;p&gt;Human’s nowadays easily tend to get depressed, think too much about someone’s saying, lot of mental health issues are popping up.
 This is a small step towards using the AI to democratize and help individuals who are too afraid to talk to doctor/stranger/therapist about thier issue, use AI at thier hand to help themselves.&lt;/p&gt;
@@ -122,7 +187,7 @@ This is a small step towards using the AI to democratize and help individuals wh
     &lt;p&gt;It is heavily guardrailed to never suggest a medication/drug to any user.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;If it senses the condition is too worse to handle if provide ways to cope up, and then speak with a proper medical proffessional.&lt;/p&gt;
+    &lt;p&gt;If it senses the condition is too worse to handle if provide ways to cope up, and then speak with a proper medical professional.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -140,15 +205,7 @@ This is a small step towards using the AI to democratize and help individuals wh
 
 &lt;p&gt;This project was a part of &lt;a href=&quot;https://work.mercor.io/hackathons&quot; style=&quot;color: darkred;&quot;&gt;Mercor Hackathon&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Thanks for Reading.&lt;/p&gt;</content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Deep Learning" /><category term="Transformers" /><summary type="html">A Personal Mental Health Consultant</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22pcr.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22pcr.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ivy Contribution</title><link href="http://localhost:4000/articles1/works1/" rel="alternate" type="text/html" title="Ivy Contribution" /><published>2023-07-09T00:00:00+05:30</published><updated>2023-07-09T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works1</id><content type="html" xml:base="http://localhost:4000/articles1/works1/">&lt;h2 id=&quot;open-source-contribution-to-ivy&quot;&gt;Open-Source Contribution to IVY.&lt;/h2&gt;
-
-&lt;p&gt;The contirbution was done to better understand a prominent ML library in making.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/Screenshot (12).png&quot; alt=&quot;click here&quot; height=&quot;1200px&quot; width=&quot;1000px&quot; style=&quot;align: center;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here is the link of the merged PR.&lt;/p&gt;
-
-&lt;p&gt;Please visit this &lt;a href=&quot;https://github.com/unifyai/ivy/pull/13492&quot; style=&quot;color: darkred;&quot;&gt;Merged PR&lt;/a&gt; for the work.&lt;/p&gt;</content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Open-source" /><category term="ML" /><category term="Test-driven developement" /><summary type="html">My Major Open-Source Contribution</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22ivy.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22ivy.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tranformer Explored</title><link href="http://localhost:4000/articles1/works3/" rel="alternate" type="text/html" title="Tranformer Explored" /><published>2023-07-09T00:00:00+05:30</published><updated>2023-07-09T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works3</id><content type="html" xml:base="http://localhost:4000/articles1/works3/">&lt;h2 id=&quot;in-depth-working-of-transformers-colab-version&quot;&gt;In depth working of Transformers (Colab Version).&lt;/h2&gt;
+&lt;p&gt;Thanks for Reading.&lt;/p&gt;</content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Deep Learning" /><category term="Transformers" /><summary type="html">A Personal Mental Health Consultant</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22pcr.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22pcr.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tranformer Explored</title><link href="http://localhost:4000/articles1/works2/" rel="alternate" type="text/html" title="Tranformer Explored" /><published>2023-07-09T00:00:00+05:30</published><updated>2023-07-09T00:00:00+05:30</updated><id>http://localhost:4000/articles1/works2</id><content type="html" xml:base="http://localhost:4000/articles1/works2/">&lt;h2 id=&quot;in-depth-working-of-transformers-colab-version&quot;&gt;In depth working of Transformers (Colab Version).&lt;/h2&gt;
 
 &lt;p&gt;The project is Self-Explanatory and heavily commented, so it would be easy to understand.&lt;/p&gt;
 
@@ -161,7 +218,7 @@ Stay Tuned.&lt;/p&gt;
 
 &lt;p&gt;Follow me on twitter for more updates.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/kumarkaushal_&quot;&gt;&lt;img src=&quot;https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&amp;amp;label=Follow%20%40kumarkaushal_&quot; alt=&quot;@kumarkaushal_&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Deep Learning" /><category term="Transformers" /><summary type="html">The Transformer Architecture Explored in-Depth</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22Trans.webp%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22Trans.webp%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">LongNet: Scaling to a Billion Tokens😱</title><link href="http://localhost:4000/articles/test/" rel="alternate" type="text/html" title="LongNet: Scaling to a Billion Tokens😱" /><published>2023-07-07T00:00:00+05:30</published><updated>2023-07-07T00:00:00+05:30</updated><id>http://localhost:4000/articles/test</id><content type="html" xml:base="http://localhost:4000/articles/test/">&lt;h2 id=&quot;microsoft-research-introduces-longnet-a-transformer-variant-that-can-scale-sequence-length-to-more-than-1-billion-tokens-with-no-loss-in-shorter-sequences&quot;&gt;Microsoft Research Introduces LongNet: A Transformer Variant That Can Scale Sequence Length To More Than 1 Billion Tokens With No Loss In Shorter Sequences&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/kumarkaushal_&quot;&gt;&lt;img src=&quot;https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&amp;amp;label=Follow%20%40kumarkaushal_&quot; alt=&quot;@kumarkaushal_&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Kaushal Choudhary</name></author><category term="articles1" /><category term="Deep Learning" /><category term="Transformers" /><summary type="html">The Transformer Architecture Explored in-Depth</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22teaser%22=%3E%22Trans.webp%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22teaser%22=%3E%22Trans.webp%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">LongNet: Scaling to a Billion Tokens😱</title><link href="http://localhost:4000/articles/blog1/" rel="alternate" type="text/html" title="LongNet: Scaling to a Billion Tokens😱" /><published>2023-07-07T00:00:00+05:30</published><updated>2023-07-07T00:00:00+05:30</updated><id>http://localhost:4000/articles/blog1</id><content type="html" xml:base="http://localhost:4000/articles/blog1/">&lt;h2 id=&quot;microsoft-research-introduces-longnet-a-transformer-variant-that-can-scale-sequence-length-to-more-than-1-billion-tokens-with-no-loss-in-shorter-sequences&quot;&gt;Microsoft Research Introduces LongNet: A Transformer Variant That Can Scale Sequence Length To More Than 1 Billion Tokens With No Loss In Shorter Sequences&lt;/h2&gt;
 
 &lt;p&gt;Scaling neural networks has been popular in recent years. Several potent deep networks are produced with the depth largely increased for exponential expressivity. Then, the hidden dimension is effectively expanded using sparse MoE models and model parallelism techniques. As the last atomic dimension of the neural network, the sequence length should be as long as possible. There are several benefits when the sequence length restriction is removed. First, it gives models a sizable memory and receptive field, enabling them to interact with people and the outside environment. Second, lengthier contexts include more intricate causal chains and thought processes, which models may use in training data.&lt;/p&gt;
 
