@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: Hire Me!!
+title: 
 modified:
 excerpt:
 image:
@@ -12,10 +12,11 @@ permalink: /hireme/
 ---
 
 
-<img src="/images/photo.png" alt="click here" height="1o0px" width="200px" style="align: right;"/>
+<img src="/images/hireme.png" alt="click here" height="100px" width="400px" style="align: right;"/>
 
 👋 Hi, I'm Kaushal Kumar Choudhary, a dedicated software engineer with a passion for artificial intelligence and machine learning. My expertise in C/C++, Python, and various frameworks like PyTorch and TensorFlow drive my pursuit of cutting-edge solutions. Let's collaborate and leverage technology for impactful innovation.
 
+[![Visits Badge](https://badges.pufler.dev/visits/pujux/badge-it)](https://kaushalforai.vercel.app/)
 <style>
   .work-experience {
     display: flex;
@@ -36,6 +37,37 @@ permalink: /hireme/
 </style>
 
 <h2>Work Experience</h2>
+
+<div class="work-experience">
+  <div class="left">
+    <h3>LANCEDB YC W22</h3>
+    <p><em>Oct 2023 - Present</em></p>
+  </div>
+  <div class="right">
+    <ul>
+      <h4>ML Consultant</h4>
+      <li>Integrated LanceDB vector database into multiple frameworks.</li>
+      <li>Working on creating examples, blogs and creating awareness for
+LanceDB.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="work-experience">
+  <div class="left">
+    <h3>FISClouds, Hyderabad</h3>
+    <p><em>Sep 2023 - Nov 2023</em></p>
+  </div>
+  <div class="right">
+    <ul>
+      <h4>ML Engineer</h4>
+      <li>Built recommender systems for movie theaters, using neural collaborative
+filtering, historical data stored and retrieved from GCP.</li>
+      <li>Successfully transferred multiple ML models to the Google Cloud Platform
+(GCP) Vertex platform.</li>
+    </ul>
+  </div>
+</div>
 
 <div class="work-experience">
   <div class="left">
@@ -128,21 +160,23 @@ Our team grouped him up with a few other interns to complete the company’s maj
 [Recommendation Letter](images/kkc_reco.pdf)
 
 
+
 ## Contact Information
 
-📧 Email: [kaushalc64@gmail.com](mailto:kaushalc64@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:@kaushalc64@gmail.com)
 
-📞 Phone: [+91 7682077931](tel:+917682077931)
+<a href='7682077931' target="_blank"><img alt='apple' src='https://img.shields.io/badge/Phone-100000?style=for-the-badge&logo=apple&logoColor=white&labelColor=004df1&color=004df1'/></a>
 
-## Social Media
+## Find Me Here!
 
-[![@kumarkaushal_](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40kumarkaushal_)](https://twitter.com/kumarkaushal_)
+<a href='https://twitter.com/kumarkaushal_' target="_blank"><img alt='X' src='https://img.shields.io/badge/Twitter-100000?style=for-the-badge&logo=X&logoColor=white&labelColor=000000&color=000000'/></a>
 
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/11kaushalkumar/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/11kaushalkumar/)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://kaushalforai.vercel.app/)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@kaushalc64) 
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kaushal07wick)
 
----
 
+
+---
