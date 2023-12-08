@@ -12,7 +12,6 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-gist"
   gem "jekyll-feed"
-  gem "jekyll-display-medium-posts"
 #   gem "jemoji"
 #   gem "jekyll-redirect-from"
 end
