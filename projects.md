@@ -5,6 +5,7 @@ subtitle: What I do?
 permalink: /project/
 ---
 
+<img src="/assets/images/sdsf.svg">
 <ul class="list-posts">
     {% for project in site.projects %}
         <li class="post-teaser">
