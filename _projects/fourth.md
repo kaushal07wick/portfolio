@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "LangDB"
+subtitle: "Natural language query for SQL"
+date:   2024-05-10
+---
+
+## Motivation
+
+Database plays a crucical part in any firm, be it finance, law, tech or event management. The data in today's world is called the new oil. Managing and maintaining a SQL database with millions of data still stays in the hand of a technical guy, but querying it and gaining insights should be easy for anyone in the world.
+
+## Features
+
+1 . It is the first iteration, so basically it only has a text-to-text communication channel.
+
+2. It seemlessly converts the natural language query (even though you might have to know a little about the tables present in the data for better accuracy) into proper MS SQL commands to query the backend database.
+
+3. It automatically adjusts it's commands according to the query.
+
+## User Interface
+
+<img src="/assets/images/ss14.png" alt="click here" height="400px" width="700px" style="align: center;"/>
+
+#### Querying the database with a general questions (note that I know which table contains the relevant info)
+
+<img src="/assets/images/ss1.png" alt="click here" height="500px" width="1000px" style="align: center;"/>
+
+## Conclusion
+
+This small project's was to build a chat-bot that can chat over the database providing a natural language query interface to the user.
+
+This project was a part of a freelance gig at <a href="https://www.pearlthoughts.com/" style="color: darkred;">PearlThoughts</a>.
+
+Feel free to look up the open-source code at <a href="https://github.com/kaushal07wick/sqlagent" style="color: darkred;">GitHub</a>
+
+Thanks for Reading. 

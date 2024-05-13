@@ -5,68 +5,213 @@ subtitle: Why I breathe oxygen?
 permalink: /about/
 ---
 
-<img src="https://raw.githubusercontent.com/kaushal07wick/portfolio/gh-pages/assets/images/op_1.svg" alt="me" width="300" height="400">
-🫵Hi there!
-I am a software engineer with a passion for artificial intelligence and machine learning. My technical skills include C/C++, Python, PyTorch, TensorFlow, HuggingFace, HTML, CSS, JavaScript, and Flask. During my time at IIIT Hyderabad, I gained experience in Linux, AWS, BASH, GitHub, OpenCV, MATLAB, and SQL.
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-🚀 In one of my projects at Grene Robotics, I delved deep into Transformer architecture, experimenting with its internals. I also contributed to the development of an automated analysis app on GitHub, which summarizes and explains technical aspects of repositories.
+body {
+  background-color: $dorian;
+  font-family: Inconsolata, sans-serif;
+}
 
-🔭 Additionally, I have worked on exciting projects like using Yolov-8 for real-time traffic sign recognition and contributing to the TensorFlow frontend module for Unifyai/ivy.
+.main-content{
+    font-weight: bold;
+    font-size: large;
+}
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-🎓 I am currently pursuing a B.Tech in Artificial Intelligence with a remarkable 9/10 GPA at Sage University. I have also gained practical experience as a data analyst intern at Technocolabs Softwares Inc., where I researched scene-text recognition for resource-constrained devices.
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
 
-🏀 On a personal note, I have been the captain of my university’s basketball team and served as the head coordinator of the Techneeti Club 💻.
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
 
-📚 I hold certifications in Harvardx CS50’s Introduction to Computer Science and LinkedIn Learning’s Advanced C Programming. I have also completed the Intermediate level of Machine Learning on Kaggle.
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: black;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
 
-I am excited about new opportunities and collaborations. Let’s connect and discuss how I can contribute to your projects! 😊
+/* Place the container to the left */
+.left {
+  left: 0;
+}
 
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
 
-LANCEDB YC W22
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
 
-Oct 2023 - Present
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
 
-    ML Consultant
-    Integrated LanceDB vector database into multiple frameworks.
-    Working on creating examples, blogs and creating awareness for LanceDB.
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
 
-FISClouds, Hyderabad
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
 
-Sep 2023 - Nov 2023
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
 
-    ML Engineer
-    Built recommender systems for movie theaters, using neural collaborative filtering, historical data stored and retrieved from GCP.
-    Successfully transferred multiple ML models to the Google Cloud Platform (GCP) Vertex platform.
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+</style>
+</head>
+<body>
+ <img src="https://raw.githubusercontent.com/kaushal07wick/portfolio/gh-pages/assets/images/op_1.svg" alt="me" width="300" height="400">
 
-IIIT HYDERABAD, HYDERABAD, INDIA
+  <div class="base-content">
+    <div class="main-content">
+        <h2>🫵Hi there!</h2>
+        I am a Software Engineer with a passion for Machine Learning and Robotics. 
+        I learn low level stuff and make some projects too.
+        Below are my past experiences😊
+ </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>TurboML : Mar, 2024</h2>    
+      <h4>Technical Writer</h4>  
+      <p>Beta tester: Identified bugs, exceptions, and tested examples for framework. Coordinated roadmap planning and documentation structure.
+      • API Documentation to cover 25+ streaming algorithms and 10+ Tutorials notebooks, bridging the gap between technical and non-technical audiences.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>LanceDB (YC W22) : Jan, 2024</h2>
+      <h4>ML Consultant</h4>
+      <p>Increased LanceDB’s popularity and usage by 60% through engaging Colab notebooks, Medium blogs, and thorough audits.
+      • Collaborated on integration projects to elevate LanceDB’s technological capabilities..</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>FISClouds : Nov, 2024</h2>
+      <h4>ML Engineer</h4>
+      <p>Designed recommender systems for movie theaters, utilizing neural collaborative filtering and historical data stored on GCP.
+    • Led cross-functional team to transition ML infrastructure to Google’s Vertex platform, enhancing data storage and management processes.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Grene Robotics : Mar, 2023</h2>
+      <h4>Software Engineer</h4>
+      <p>Developed system software for autonomous drone and configure it based on the business viewpoint.
+      • Designed and implemented an advanced system for object detection, obstacle avoidance, and navigation, enabling drones to fly at speeds up to 90 km/h with precision and safety..</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>Technocolabs Softwares : Jun, 2022</h2>
+      <h4>Data Analyst Intern</h4>
+      <p>Led the team in designing and implementing ETL pipelines, tracking milestones for successful project deployment.
+        • Managed engineering teams with efficiency and precision, fostering a culture of continuous improvement</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>RRC, IIIT Hyderabad : Jun, 2023</h2>
+      <h4>Research Intern</h4>
+      <p>Worked with Harikumar Kandath Developing Novel Decision Neural Networks for safe landing of autonomous drones in urban cluttered environments.</p>
+    </div>
+  </div>
+</div>
 
-Nov 2022 - May 2023
-
-    RESEARCH INTERN
-    Developing Novel Decision Neural Networks for safe landing of autonomous drones in urban cluttered environments.
-    Researching dynamic, non-linear optimization techniques to solve safe landing criteria heuristics and ensure successful landings.
-
-GRENE ROBOTICS, HYDERABAD, INDIA
-
-Dec 2022 - Mar 2023
-
-    SOFTWARE ENGINEER
-    Developing an autonomous drone to intercept high-speed targets with real-time enemy position data from radar-based ground stations.
-    Utilizing advanced computer vision techniques and control systems for precise tracking and interception capabilitie
-
-University of Hyderabad
-
-Jun 2022 - Aug 2022
-
-    IASc-INSA-NASI Summer Research Fellow
-    Researched on Scene-Text Recognition for Natural and High Mobiltiy use case.
-    Worked on implementing SOTA models in resource constrained devices.
-
-Technocolabs Software's Inc.
-
-May 2022 - Jun 2022
-
-    Data Analyst Intern
-    Processed and refined raw data, conducted research to identify the most suitable model for the data analysis.
-    Organized team's daily agenda, facilitating regular meetings with the team and manager for effective collaboration and progress tracking.
-
+</body>
+</html>

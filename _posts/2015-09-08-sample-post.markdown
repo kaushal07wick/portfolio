@@ -1,19 +1,14 @@
 ---
 layout: post
-title:  "Sample post from Daktilo"
-subtitle: "What you can do with it!"
-date:   2014-08-19 23:56:45
-categories: [tool]
+title:  "Welcome to my lifesite"
+subtitle: "What will u find here!"
+date:   2024-05-10
 ---
 
-Just a sample post to show some of the *typography* elements supported from
-**daktilo** theme.
+I build this website to showcase my **projects** and maybe show off my peculiar **writings** as well.
 
 ___
-
-A blockquote:
-
-> We are Hitchhikers in the road of open source knowledge.
+itchhikers in the road of open source knowledge.
 
 ## Header 2
 
