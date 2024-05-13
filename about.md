@@ -168,50 +168,60 @@ body {
     <div class="content">
       <h2>TurboML : Mar, 2024</h2>    
       <h4>Technical Writer</h4>  
-      <p>Beta tester: Identified bugs, exceptions, and tested examples for framework. Coordinated roadmap planning and documentation structure.
-      • API Documentation to cover 25+ streaming algorithms and 10+ Tutorials notebooks, bridging the gap between technical and non-technical audiences.</p>
+      <p><strong>Beta tester</strong>: Identified bugs, exceptions, and tested examples for framework. Coordinated roadmap planning and documentation structure.
+      • <strong>API Documentation</strong> to cover 25+ streaming algorithms and 10+ Tutorials notebooks, bridging the gap between technical and non-technical audiences.</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
       <h2>LanceDB (YC W22) : Jan, 2024</h2>
       <h4>ML Consultant</h4>
-      <p>Increased LanceDB’s popularity and usage by 60% through engaging Colab notebooks, Medium blogs, and thorough audits.
-      • Collaborated on integration projects to elevate LanceDB’s technological capabilities..</p>
+      <p>Increased <a href="https://lancedb.com/">LanceDB</a> popularity and usage by 60% through engaging Colab notebooks, <a href="https://medium.com/@kaushalc64">Medium</a> blogs, and thorough audits.
+      • Collaborated on integration projects to elevate LanceDB’s technological capabilities.</p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
       <h2>FISClouds : Nov, 2024</h2>
       <h4>ML Engineer</h4>
-      <p>Designed recommender systems for movie theaters, utilizing neural collaborative filtering and historical data stored on GCP.
-    • Led cross-functional team to transition ML infrastructure to Google’s Vertex platform, enhancing data storage and management processes.</p>
+      <p>Designed <strong>Recommender Systems</strong> for movie theaters, utilizing <strong>Neural Collaborative Filtering</strong> and historical data stored on GCP.
+    • Led cross-functional team to transition ML infrastructure to <strong>Google’s Vertex</strong> platform, enhancing data storage and management processes.</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
       <h2>Grene Robotics : Mar, 2023</h2>
       <h4>Software Engineer</h4>
-      <p>Developed system software for autonomous drone and configure it based on the business viewpoint.
-      • Designed and implemented an advanced system for object detection, obstacle avoidance, and navigation, enabling drones to fly at speeds up to 90 km/h with precision and safety..</p>
+      <p>Developed system software for <strong>Autonomous Drone</strong> and configure it based on the business viewpoint.
+      • Designed and implemented an advanced system for object detection, obstacle avoidance, and navigation, enabling drones to fly at speeds up to <strong>90 km/h</strong> with precision and safety.</p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <h2>Technocolabs Softwares : Jun, 2022</h2>
-      <h4>Data Analyst Intern</h4>
-      <p>Led the team in designing and implementing ETL pipelines, tracking milestones for successful project deployment.
-        • Managed engineering teams with efficiency and precision, fostering a culture of continuous improvement</p>
+    <div class="content">
+      <h2>RRC, IIIT Hyderabad : Jun, 2023</h2>
+      <h4>Research Intern</h4>
+      <p>Worked with <a href="https://www.iiit.ac.in/people/faculty/Harikumar/">Harikumar Kandath</a> Developing Novel <strong>Decision Neural Networks</strong> for safe landing of autonomous drones in urban cluttered environments.</p>
+    </div>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2>RRC, IIIT Hyderabad : Jun, 2023</h2>
-      <h4>Research Intern</h4>
-      <p>Worked with Harikumar Kandath Developing Novel Decision Neural Networks for safe landing of autonomous drones in urban cluttered environments.</p>
+      <h2>AI LAB - UNIVERSITY OF HYDERABAD : Aug, 2022</h2>
+      <h4>IASC-INSA-NASI Summer Researrch Fellow</h4>
+      <p>Worked under <a href="https://scis.uohyd.ac.in/People/profile/an_profile.php">Dr. Atul Negi</a> on Multilingual Scene-Text Recognition systems. • Experimented with various STRs and wrote a <a href="https://drive.google.com/file/d/12KXMY9y_2D7Ws6j6vP4KBHV1QrJhfZNN/view">Survey Paper</a> on the same</p>
     </div>
   </div>
 </div>
+  <div class="container left">
+    <div class="content">
+      <h2>Technocolabs Softwares : Jun, 2022</h2>
+      <h4>Data Analyst Intern</h4>
+      <p>Led the team in designing and implementing <strong>ETL Pipelines</strong>, tracking milestones for successful project deployment.
+      • Managed engineering teams with efficiency and precision, fostering a culture of continuous improvement</p>
+    </div>
+  </div>
 
 </body>
 </html>
+

@@ -27,4 +27,5 @@ permalink: /contact/
   <a href="https://twitter.com/kumarkaushal_"><i class="fa fa-twitter"></i></a>
   <a href="https://www.linkedin.com/in/11kaushalkumar/"><i class="fa fa-linkedin"></i></a>
   <a href="https://github.com/kaushal07wick"><i class="fa fa-github"></i></a>
+  <a href="https://medium.com/@kaushalc64"><i class="fa fa-medium"></i></a>
 </div>
