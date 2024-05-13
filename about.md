@@ -5,7 +5,7 @@ subtitle: Why I breathe oxygen?
 permalink: /about/
 ---
 
-<img src="https://raw.githubusercontent.com/kaushal07wick/portfolio/gh-pages/assets/images/op.svg" alt="me" width="300" height="400">
+<img src="https://raw.githubusercontent.com/kaushal07wick/portfolio/gh-pages/assets/images/op_1.svg" alt="me" width="300" height="400">
 🫵Hi there!
 I am a software engineer with a passion for artificial intelligence and machine learning. My technical skills include C/C++, Python, PyTorch, TensorFlow, HuggingFace, HTML, CSS, JavaScript, and Flask. During my time at IIIT Hyderabad, I gained experience in Linux, AWS, BASH, GitHub, OpenCV, MATLAB, and SQL.
 
