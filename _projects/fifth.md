@@ -20,6 +20,22 @@ It uses <a href="https://github.com/replit/ReplitLM/tree/main" style="color: dar
 
 3. It is first iteration so some latencies and error could pop up.
 
+## Example Code. Try it out!!
+
+{% highlight python %}
+import re
+
+pattern = '^a...s$'
+test_string = 'abyss'
+result = re.match(pattern, test_string)
+
+if result:
+  print("Search successful.")
+else:
+  print("Search unsuccessful.")	
+{% endhighlight %}
+
+
 ## User Interface
 
 <img src="/assets/images/demo1.gif" alt="click here" height="500px" width="600px" style="align: center;"/>
