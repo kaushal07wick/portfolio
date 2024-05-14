@@ -21,19 +21,11 @@ It uses <a href="https://github.com/replit/ReplitLM/tree/main" style="color: dar
 3. It is first iteration so some latencies and error could pop up.
 
 ## Example Code. Try it out!!
-
-{% highlight python %}
-import re
-
-pattern = '^a...s$'
-test_string = 'abyss'
-result = re.match(pattern, test_string)
-
-if result:
-  print("Search successful.")
-else:
-  print("Search unsuccessful.")	
-{% endhighlight %}
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28250%2C249%2C246%2C1%29&t=seti&wt=none&l=python&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=import%2520re%250A%250Apattern%2520%253D%2520%27%255Ea...s%2524%27%250Atest_string%2520%253D%2520%27abyss%27%250Aresult%2520%253D%2520re.match%28pattern%252C%2520test_string%29%250A%250Aif%2520result%253A%250A%2520%2520print%28%2522Search%2520successful.%2522%29%250Aelse%253A%250A%2520%2520print%28%2522Search%2520unsuccessful.%2522%29%2509"
+  style="width: 479px; height: 426px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
 
 
 ## User Interface
