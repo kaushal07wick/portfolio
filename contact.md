@@ -22,7 +22,7 @@ permalink: /contact/
 <br>
 <div class="card">
   <h1>Kaushal Kumar Choudhary</h1>
-  <p class="title">ML Engineer</p>
+  <p class="title">Engineer and Writer</p>
   <p>Email: kaushalc64@gmail.com</p>
   <a href="https://twitter.com/kumarkaushal_"><i class="fa fa-twitter"></i></a>
   <a href="https://www.linkedin.com/in/11kaushalkumar/"><i class="fa fa-linkedin"></i></a>
