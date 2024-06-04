@@ -97,17 +97,22 @@ my idea is to reduce the price, but put delivery fee on all orders irrespective 
 * we can make use of grouping the delivery agents into centre point, where they can exchange the products going to the same locality, and the other free drivers can fullfill other orders.
 
 # website fix
+> create a next.js website with acternity and shadcn ui
 
 # ml model to optimize delivery 
+> create a working demo of self driving bike in traversing a path, use the nn with js video
 
 # excalidraw algorithm fix
+> show the algo in excalidraw
 
 # interview gists
-
-# zepto currently missing stuff
+> create a detailed memo of all the pain points of zepto as told in interviews
 
 # charts for data analysis
+> create a google form for survey and then try to make it real-time
 
 # python django fastapi
+> show how you can create a live website with these tech for data analysis
 
 # postgres mysql mongoDB
+> maybe use this databases somewhere

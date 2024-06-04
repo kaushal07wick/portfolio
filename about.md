@@ -221,6 +221,18 @@ body {
       • Managed engineering teams with efficiency and precision, fostering a culture of continuous improvement</p>
     </div>
   </div>
+  <style>
+    .align-content {
+        text-align: left; /* Change to 'center' or 'right' as needed */
+    }
+</style>
+
+<div class="align-content">
+    <a href='https://www.free-counters.org/'>Free Counters</a>
+    <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=2901a98d2ea2e8b1f108c61ce450aff09da0c427'></script>
+    <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1189108/t/0"></script>
+</div>
+
 
 </body>
 </html>
