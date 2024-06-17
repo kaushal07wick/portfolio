@@ -29,4 +29,3 @@ permalink: /contact/
   <a href="https://github.com/kaushal07wick"><i class="fa fa-github"></i></a>
   <a href="https://medium.com/@kaushalc64"><i class="fa fa-medium"></i></a>
 </div>
-

@@ -1,62 +1,40 @@
 ---
 layout: post
 title:  Zepto 
-subtitle: "I want to work with Zepto Founders, and to show the kind of value I bring, I have proactively researched and analyzed Zepto, and compiled it into this Article!"
+subtitle: "I want to work with Zepto founders, and to demonstrate the kind of value I bring, I have proactively addressed some areas for improvements and analysed the impact and value they can bring."
+include_scripts: [
+    "/assets/js/crypto.js"
+]
 ---
 
 
-<img src="https://raw.githubusercontent.com/kaushal07wick/portfolio/gh-pages/assets/images/Zepto-Logo-Vector.svg-(1).svg">
-
-### I will divide this article into two distinct sections.
+## I will divide this article into two distinct sections.
 
 # 1. Technology
 
-Here, I am going to list all the technical proficiency and expertise I can bring to the team.
+Here are some observations I made regarding the technical aspects of the website.
 
 <strong>Problem</strong>
 
-While I was scrolling through the [Zeptonow](https://zeptonow.openings.co/), I found out that the alignment of the `Apply Buttons` is not properly in accordance with the Job label.
-
+While browsing the Zeptonow site, I noticed a few alignment issues with the Apply Buttons not matching the Job labels.
 <img src="/assets/images/zepto-1.png">
 
-And, you can also see that the experience displayed here is `0-0 years` but,
+Additionally, the experience displayed initially shows <strong>0-0</strong> years,
+<img src="/assets/images/zepto-2.png">
 
-<img src="/assets/images/zepto-2.png"> 
-
-after clicking we can see that the experience is `4+ years`.
-
+but after clicking, it correctly indicates <strong>4+ years</strong>.
 <img src="/assets/images/zepto-3.png">
 
-The `We're hiring` looks little off-beat, and out-of-place, and while clicking on the `Careers`, it doesn't take you anywhere.
-The `View Open Positions` feel redundant, I think the Careers / We're hiring! could have done the job.
-
-The website doesn't seem to be `Responsive` as well.
+The <strong>We're hiring</strong> text appears slightly out of place, and the <strong>Careers link</strong> does not lead to any destination. 
+Lastly, the website doesn't appear to be fully responsive.
 <img src="/assets/images/zepto-4.png">
 
 <strong>Solution</strong>
  
-I made a website in webflow to solve all the problems I listed above.
+I made a website in the latest tech stack (NextJs, TailwindCSS and MongoDB) that provides much more updated and responsive feel to the website.
+Note: I am not a pro coder.
 
-You can visit [Zepto]()
-
-
-
-
-
-
-### Zepto is not Swiggy or Zomato, or even a Restaurant.
-
-The idea of writing blogs could be good, but I don't think it'll be very helpful for us.
-According to my perspective, I would not want to read a long form blog on knowing any history on foods or even about a festival, coming from a grocery business.
-And the **Future of Google Ads** on the page is a nice addition, as it shows the caliber of zepto engineering and how they are use the metrics to optimize more on efficieny and quick delivery.
-
-### Zepto is spreading rapidly, and we need to take tier II and some tier III cities in consideration as well.
-
-Like,  Amritsar, Bhopal, Bhubaneswar, Chandigarh, Faridabad,
-Ghaziabad, Jamshedpur, Jaipur, Kochi, Lucknow, Nagpur, Patna, Raipur,
-Surat, Visakhapatnam, Agra, Ajmer, Kanpur, Mysuru, and Srinagar
-
-basically the place where zomato and swiggy have their feet already on the ground, we can easily setup our business as well.
+You can visit the [Zepto](https://zeptonow.vercel.app/) website deployed on vercel.
 
 
 ## Business
@@ -96,23 +74,26 @@ my idea is to reduce the price, but put delivery fee on all orders irrespective 
 
 * we can make use of grouping the delivery agents into centre point, where they can exchange the products going to the same locality, and the other free drivers can fullfill other orders.
 
-# website fix
-> create a next.js website with acternity and shadcn ui
+# Done
+## website fix
+> create a next.js website with acternity and shadcn ui 
 
-# ml model to optimize delivery 
+
+# Doing
+## create a chatbot
+> create a chabot, integrated in the website
+
+## complete the careers page
+>make sure the dynamic routing works
+
+## ml model to optimize delivery 
 > create a working demo of self driving bike in traversing a path, use the nn with js video
 
-# excalidraw algorithm fix
+## excalidraw algorithm fix
 > show the algo in excalidraw
 
-# interview gists
+## interview gists
 > create a detailed memo of all the pain points of zepto as told in interviews
 
-# charts for data analysis
+## charts for data analysis
 > create a google form for survey and then try to make it real-time
-
-# python django fastapi
-> show how you can create a live website with these tech for data analysis
-
-# postgres mysql mongoDB
-> maybe use this databases somewhere
