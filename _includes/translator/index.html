@@ -1,0 +1,313 @@
+<h1 style="font-size: 34px; margin-top: 0; margin-bottom: 10px; text-align: center;">3. Multilingual Translator</h1>
+> Translator app made from Vanilla JS, it supports 20+ languages, and you hear the text too<br>
+<br>
+<div class="t-container">
+  <div class="t-wrapper">
+    <div class="t-text-input">
+      <textarea spellcheck="false" class="t-from-text" placeholder="Enter text"></textarea>
+      <textarea spellcheck="false" readonly disabled class="t-to-text" placeholder="Translation"></textarea>
+    </div>
+    <ul class="t-controls">
+      <li class="t-row t-from">
+        <div class="t-icons">
+          <i id="from" class="fa fa-volume-up"></i>
+          <i id="from" class="fa fa-copy"></i>
+        </div>
+        <select></select>
+      </li>
+      <li class="t-exchange"><i class="fa fa-exchange"></i></li>
+      <li class="t-row t-to">
+        <select></select>
+        <div class="t-icons">
+          <i id="to" class="fa fa-volume-up"></i>
+          <i id="to" class="fa fa-copy"></i>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <button class="t-button">Translate Text</button>
+</div>
+
+<style>
+/* Container for the translator component */
+.t-container {
+  max-width: 690px;
+  width: 100%;
+  padding: 30px;
+  background: #e5e2e2;
+  border-radius: 7px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.01);
+}
+
+/* Wrapper for the text input area */
+.t-wrapper {
+  border-radius: 5px;
+  border: 1px solid #1d1b1b;
+}
+
+/* Text input area */
+.t-wrapper .t-text-input {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.t-text-input .t-to-text {
+  border-radius: 0px;
+  border-left: 1px solid #111010;
+}
+
+.t-text-input textarea {
+  height: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  background: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.t-text-input textarea::placeholder {
+  color: #b3abab;
+}
+
+/* Controls area */
+.t-controls,
+.t-controls li,
+.t-icons,
+.t-icons i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.t-controls {
+  list-style: none;
+  padding: 12px 15px;
+}
+
+.t-icons {
+  width: 38%;
+}
+
+.t-icons i {
+  width: 50px;
+  color: #111010;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  justify-content: center;
+}
+
+.t-from .t-icons {
+  padding-right: 15px;
+  border-right: 1px solid #252222;
+}
+
+.t-to .t-icons {
+  padding-left: 15px;
+  border-left: 1px solid #141313;
+}
+
+.t-controls select {
+  color: #131212;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: none;
+  padding-left: 5px;
+}
+
+.t-text-input textarea::-webkit-scrollbar {
+  width: 4px;
+}
+
+.t-controls select::-webkit-scrollbar {
+  width: 8px;
+}
+
+.t-text-input textarea::-webkit-scrollbar-track,
+.t-controls select::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.t-text-input textarea::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 8px;
+}
+
+.t-controls select::-webkit-scrollbar-thumb {
+  background: #0f0f0f;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+}
+
+.t-exchange {
+  color: #131212;
+  cursor: pointer;
+  font-size: 26px;
+  transition: transform 0.2s ease;
+}
+
+.t-controls i:active {
+  transform: scale(0.9);
+}
+
+/* Button styling */
+.t-button {
+  width: 100%;
+  padding: 14px;
+  outline: none;
+  border: none;
+  color: #f3eaea;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 17px;
+  border-radius: 5px;
+  background: #0764a1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 660px) {
+  .t-container {
+    padding: 20px;
+  }
+
+  .t-text-input {
+    flex-direction: column;
+  }
+
+  .t-to-text {
+    border-left: 0px;
+    border-top: 1px solid #ccc;
+  }
+
+  .t-text-input textarea {
+    height: 200px;
+  }
+
+  .t-icons {
+    display: none;
+  }
+
+  .t-button {
+    padding: 13px;
+    font-size: 16px;
+  }
+
+  .t-controls select {
+    font-size: 16px;
+  }
+
+  .t-exchange {
+    font-size: 14px;
+  }
+}
+</style>
+
+<script>
+  const fromText = document.querySelector(".t-from-text");
+  const toText = document.querySelector(".t-to-text");
+  const exchageIcon = document.querySelector(".t-exchange");
+  const selectTag = document.querySelectorAll("select");
+  const icons = document.querySelectorAll(".t-row i");
+  const translateBtn = document.querySelector(".t-button");
+
+  const countries = {
+    "bn-IN": "Bengali",
+    "bo-CN": "Tibetan",
+    "cs-CZ": "Czech",
+    "de-DE": "German",
+    "el-GR": "Greek",
+    "en-GB": "English",
+    "es-ES": "Spanish",
+    "fr-FR": "French",
+    "he-IL": "Hebrew",
+    "hi-IN": "Hindi",
+    "hr-HR": "Croatian",
+    "hu-HU": "Hungarian",
+    "id-ID": "Indonesian",
+    "it-IT": "Italian",
+    "ja-JP": "Japanese",
+    "ko-KR": "Korean",
+    "la-VA": "Latin",
+    "ne-NP": "Nepali",
+    "nl-NL": "Dutch",
+    "pt-PT": "Portuguese",
+    "ru-RU": "Russian",
+  };
+
+  selectTag.forEach((tag, id) => {
+    for (let country_code in countries) {
+      let selected =
+        id == 0
+          ? country_code == "en-GB"
+            ? "selected"
+            : ""
+          : country_code == "de-DE"
+          ? "selected"
+          : "";
+      let option = `<option ${selected} value="${country_code}">${countries[country_code]}</option>`;
+      tag.insertAdjacentHTML("beforeend", option);
+    }
+  });
+
+  exchageIcon.addEventListener("click", () => {
+    let tempText = fromText.value,
+      tempLang = selectTag[0].value;
+    fromText.value = toText.value;
+    toText.value = tempText;
+    selectTag[0].value = selectTag[1].value;
+    selectTag[1].value = tempLang;
+  });
+
+  fromText.addEventListener("keyup", () => {
+    if (!fromText.value) {
+      toText.value = "";
+    }
+  });
+
+  translateBtn.addEventListener("click", () => {
+    let text = fromText.value.trim(),
+      translateFrom = selectTag[0].value,
+      translateTo = selectTag[1].value;
+    if (!text) return;
+    toText.setAttribute("placeholder", "Translating...");
+    let apiUrl = `https://api.mymemory.translated.net/get?q=${text}&langpair=${translateFrom}|${translateTo}`;
+    fetch(apiUrl)
+      .then((res) => res.json())
+      .then((data) => {
+        toText.value = data.responseData.translatedText;
+        data.matches.forEach((data) => {
+          if (data.id === 0) {
+            toText.value = data.translation;
+          }
+        });
+        toText.setAttribute("placeholder", "Translation");
+      });
+  });
+
+  icons.forEach((icon) => {
+    icon.addEventListener("click", ({ target }) => {
+      if (!fromText.value || !toText.value) return;
+      if (target.classList.contains("fa-copy")) {
+        if (target.id == "from") {
+          navigator.clipboard.writeText(fromText.value);
+        } else {
+          navigator.clipboard.writeText(toText.value);
+        }
+      } else {
+        let utterance;
+        if (target.id == "from") {
+          utterance = new SpeechSynthesisUtterance(fromText.value);
+          utterance.lang = selectTag[0].value;
+        } else {
+          utterance = new SpeechSynthesisUtterance(toText.value);
+          utterance.lang = selectTag[1].value;
+        }
+        speechSynthesis.speak(utterance);
+      }
+    });
+  });
+</script>
