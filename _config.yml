@@ -1,18 +1,15 @@
 # Site settings
 title: Kaushal Choudhary
+image: assets/images/kkc.jpeg
 description: >
-  Hi, I am Kaushal and welcome to lifesite. Feel free to explore my projects and selected writings.
+  Hey, I am Kaushal. I ❤️ ML, make OSS contributions and make software that do the work, and I write sometime too.
  # the subpath of your site, e.g. /blog/
 
 url: "https://kaushal07wick.github.io/portfolio/"  # the base hostname & protocol for your site
 author:
   fullname: Kaushal Kumar Choudhary
-  googleplus: https://www.google.com/+MotaquillahMaddane
   github: kaushal07wick
   twitter: kumarkaushal_
-  # disqus: your_disqus_forum_shortname
-
-# google_analytics: 'UA-XXXXXXXX-X'
 
 # Syntax highlighting
 highlightstyle: ''
