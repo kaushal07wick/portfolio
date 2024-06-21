@@ -12,3 +12,4 @@ permalink: /misc/
 
 {% include translator/index.html %}
 
+{% include snake/index.html %}
