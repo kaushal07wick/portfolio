@@ -1,5 +1,5 @@
 <style>
-.snake-wrapper{
+.snake-wrapper {
     width: 65vmin;
     height: 70vmin;
     position: relative;
@@ -7,9 +7,12 @@
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
+    align-items: center; /* Center horizontally */
     background: #293447;
     border-radius: 5px;
     box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 50px; /* Adjust margin-top as needed */
 }
 
 .game-details{
@@ -53,6 +56,10 @@
     cursor: pointer;
     border-right: 1px solid #171b26;
 }
+.game-details .score {
+    margin-right: 20px; /* Adjust as needed */
+}
+
 
 @media screen and (max-width: 800px) {
     .wrapper{
