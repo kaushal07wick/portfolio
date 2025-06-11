@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neural Network Visualization</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000010;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<canvas id="network"></canvas>
+
+<script>
+const canvas = document.getElementById('network');
+const ctx = canvas.getContext('2d');
+
+function resizeCanvas() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+}
+window.addEventListener('resize', () => {
+  resizeCanvas();
+  initNodes();
+  initConnections();
+  initPulsePath();
+});
+resizeCanvas();
+
+const layers = [4, 8, 16,  16, 8, 4];
+const nodes = [];
+const connections = [];
+let time = 0;
+
+// For big pulse
+let pulsePath = [];
+let pulseProgress = 0;
+const pulseSpeed = 0.01;
+
+function initNodes() {
+  nodes.length = 0;
+  const layerSpacing = canvas.width / (layers.length + 1);
+
+  layers.forEach((num, i) => {
+    const layerNodes = [];
+    const ySpacing = canvas.height / (num + 1);
+
+    for (let j = 0; j < num; j++) {
+      layerNodes.push({
+        x: (i + 1) * layerSpacing,
+        y: (j + 1) * ySpacing
+      });
+    }
+
+    nodes.push(layerNodes);
+  });
+}
+
+function initConnections() {
+  connections.length = 0;
+
+  for (let l = 0; l < nodes.length - 1; l++) {
+    const fromLayer = nodes[l];
+    const toLayer = nodes[l + 1];
+
+    fromLayer.forEach(from => {
+      toLayer.forEach(to => {
+        connections.push({
+          from,
+          to,
+          weight: Math.random() * 2 - 1,
+          offset: Math.random() * 100
+        });
+      });
+    });
+  }
+}
+
+function initPulsePath() {
+  pulsePath = [];
+  for (let i = 0; i < nodes.length; i++) {
+    const layer = nodes[i];
+    const node = layer[Math.floor(Math.random() * layer.length)];
+    pulsePath.push(node);
+  }
+  pulseProgress = 0;
+}
+
+function drawPulsePath() {
+  for (let i = 0; i < pulsePath.length - 1; i++) {
+    const from = pulsePath[i];
+    const to = pulsePath[i + 1];
+    const t = Math.min(Math.max(pulseProgress - i, 0), 1);
+
+    if (t > 0 && t < 1) {
+      const x = from.x + (to.x - from.x) * t;
+      const y = from.y + (to.y - from.y) * t;
+
+      ctx.fillStyle = "#00ffff";
+      ctx.beginPath();
+      ctx.arc(x, y, 5, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  if (pulseProgress >= pulsePath.length - 1) {
+    initPulsePath(); // Restart once the pulse reaches the end
+  } else {
+    pulseProgress += pulseSpeed;
+  }
+}
+
+function drawNetwork() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  // Draw connections
+  for (const conn of connections) {
+    const pulse = (Math.sin(time * 0.08 + conn.offset) + 1) / 2;
+    const intensity = Math.abs(conn.weight) * pulse;
+
+    ctx.strokeStyle = `rgba(0, 200, 255, ${0.1 + intensity * 0.4})`;
+    ctx.lineWidth = 0.7 + intensity * 1;
+
+    ctx.beginPath();
+    ctx.moveTo(conn.from.x, conn.from.y);
+    ctx.lineTo(conn.to.x, conn.to.y);
+    ctx.stroke();
+  }
+
+  // Draw nodes
+for (const layer of nodes) {
+  for (const node of layer) {
+    // Fixed green color
+    const r = 0;
+    const g = 255;
+    const b = 0;
+    const outerColor = `rgba(${r}, ${g}, ${b}, 0.8)`;
+    const coreColor = `rgb(${r}, ${g}, ${b})`;
+
+    // Glowing outer gradient
+    const gradient = ctx.createRadialGradient(node.x, node.y, 0, node.x, node.y, 12);
+    gradient.addColorStop(0, outerColor);
+    gradient.addColorStop(1, 'transparent');
+
+    ctx.fillStyle = gradient;
+    ctx.beginPath();
+    ctx.arc(node.x, node.y, 16, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Inner solid node
+    ctx.fillStyle = coreColor;
+    ctx.beginPath();
+    ctx.arc(node.x, node.y, 8, 0, Math.PI * 2);
+    ctx.fill();
+  }
+}
+
+  drawPulsePath();
+}
+
+function animate() {
+  time += 1;
+  drawNetwork();
+  requestAnimationFrame(animate);
+}
+
+initNodes();
+initConnections();
+initPulsePath();
+animate();
+</script>
+</body>
+</html>

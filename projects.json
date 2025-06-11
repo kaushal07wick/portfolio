@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Project One",
+    "description": "A tool to visualize machine learning model decisions using SHAP values.",
+    "image": "images/images.png",
+    "link": "project1.html"
+  },
+  {
+    "title": "Project Two",
+    "description": "Real-time code collaboration editor with support for multiple languages.",
+    "image": "images/skull.jpg",
+    "link": "project2.html"
+  },
+  {
+    "title": "Project Three",
+    "description": "Data dashboard built with D3.js and Flask for interactive insights.",
+    "image": "images/pfp.jpg",
+    "link": "project3.html"
+  },
+    {
+    "title": "Project Three",
+    "description": "Data dashboard built with D3.js and Flask for interactive insights.",
+    "image": "images/pfp.jpg",
+    "link": "project3.html"
+  }
+]

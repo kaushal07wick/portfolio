@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+  <title>Kaushal</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg-dark: #000;
+      --bg-card: #111;
+      --text-primary: #fff;
+      --accent: #00ff99;
+      --border: #333;
+    }
+
+    body {
+      font-family: monospace;
+      background: var(--bg-dark);
+      color: var(--text-primary);
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* Floating side nav */
+    nav {
+        position: fixed;
+        left: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+        padding: 1.5rem 0.75rem;
+        border-radius: 999px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+        z-index: 1000;
+    }
+
+    nav a {
+        color: #fff;
+        font-size: 1.4rem;
+        text-decoration: none;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav a::after {
+        content: attr(data-title);
+        position: absolute;
+        left: 120%;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #333;
+        color: #fff;
+        padding: 0.3rem 0.6rem;
+        border-radius: 0.4rem;
+        white-space: nowrap;
+        font-size: 0.75rem;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s ease;
+    }
+
+    nav a:hover::after {
+        opacity: 1;
+    }
+
+    nav a:hover {
+        transform: scale(1.2);
+        transition: transform 0.2s ease;
+    }
+
+
+
+    .main-content {
+      margin: 0 auto;
+      max-width: 800px;
+      padding: 4rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .main-content section {
+      margin-bottom: 5rem;
+      width: 100%;
+      text-align: center;
+    }
+
+    .main-content h1 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .main-content p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    iframe {
+      border: none;
+      background: transparent;
+      width: 100%;
+      max-width: 700px;
+      height: 400px;
+      margin: 2rem auto;
+      display: block;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+      margin-top: 2rem;
+    }
+
+    .skill-tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem; /* spacing between icon and text */
+        padding: 0.4rem 0.8rem;
+        margin: 0.3rem;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 999px;
+        font-size: 0.9rem;
+        color: #fff;
+        font-family: sans-serif;
+        white-space: nowrap;
+    }
+
+    .skill-tag img {
+        width: 20px;
+        height: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      border-top: 1px solid var(--border);
+      width: 100%;
+    }
+    .email-form {
+        margin-top: 1rem;
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    }
+
+    .project-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease;
+    max-height: 160px;
+    }
+
+    .project-card:hover {
+    transform: translateY(-5px);
+    }
+
+    .project-card img {
+    width: 120px;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+    }
+
+    .project-info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .project-info h3 {
+    margin: 0 0 0.4rem;
+    font-size: 1.1rem;
+    color: #00e0ff;
+    }
+
+    .project-info p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ccc;
+    }
+
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: row;
+        top: auto;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0.5rem 1rem;
+      }
+    }
+  </style>
+</head>
+    <body>
+        <nav>
+            <a href="https://x.com/ofcboogeyman" data-title="Twitter / X" target="_blank">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+            <!-- GitHub -->
+            <a href="https://github.com/kaushal07wick" data-title="GitHub" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <!-- Medium -->
+            <a href="https://medium.com/@kaushalc64" data-title="Medium" target="_blank">
+                <i class="fab fa-medium"></i>
+            </a>
+
+            <!-- Codeforces (use SVG icon) -->
+            <a href="https://codeforces.com/profile/_the_boogeyman" data-title="Codeforces" target="_blank">
+            <img src="icons/cfs.svg" alt="Codeforces Logo" width="24" height="24" />
+            </a>
+
+            <!-- Kaggle -->
+            <a href="https://www.kaggle.com/kaushalchoudhary" data-title="Kaggle" target="_blank">
+                <i class="fab fa-kaggle" style="color: #74C0FC;"></i>
+            </a>
+
+            <!-- Hugging Face -->
+            <a href="https://huggingface.co/kaushal-huggingface123" data-title="Hugging Face" target="_blank">
+                <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="HF" style="width: 20px; height: 20px;" />
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:kaushalc64@gmail.com" data-title="Email">
+                <img src="icons/gmail.svg" alt="gmail" style="width: 20px; height: 20px;" />
+
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/11kaushalkumar/" data-title="LinkedIn" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#004080" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+
+            </a>
+        </nav>
+
+    <div class="main-content">
+        <section id="home">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem; padding: 2rem;">
+            <img src="images/pfp.jpg" alt="Kaushal" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;" />
+            <h1 style="margin: 0;">Heyo, Kaushal here!</h1>
+            <p style="margin: 0;">Unemployed and looking for a job in ML or SWE.</p>
+        </div>
+        <div style="text-align: center; padding: 1rem;">
+            <iframe src="anim.html"></iframe>
+        </div>
+        </section>
+        <section id="about">
+        <h2 style="font-size: 2rem; padding-bottom: 20px;">About Me</h2>
+        <p>Machine Learning Engineer with expertise in MLOps, fine-tuning, RAG, AI Agents and custom model creation from scratch. I occcasionlly contribute to open source software. Currently, I want to contribute to tinygrad and MLX.</p>
+        <h2 style="font-size: 2rem; margin: 1.5rem 0 1rem;">Skills</h2>
+        <div class="skills">
+        
+            <!-- Languages -->
+            <span class="skill-tag">
+                <img width="20" src="https://img.icons8.com/color/48/assembly.png" alt="Assembly" /> Assembly
+            </span>
+            <span class="skill-tag">
+                <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" /> C
+            </span>
+            <span class="skill-tag">
+                <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" /> C++
+            </span>
+            <span class="skill-tag">
+                <img width="20" src="icons/file-type-verilog.svg" alt="Verilog" /> Verilog
+            </span>
+            <span class="skill-tag">
+                <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" /> Python
+            </span>
+            <span class="skill-tag">
+                <i class="fa-brands fa-rust" style="color: #f86707;"></i> Rust
+            </span>
+            <span class="skill-tag">
+                <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" /> JavaScript
+            </span>
+            <span class="skill-tag">
+                <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" /> TypeScript
+            </span>
+            <span class="skill-tag">
+                <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" /> SQL
+            </span>
+
+            <!-- Libraries / Frameworks -->
+            <span class="skill-tag">
+                <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" /> Pandas
+            </span>
+            <span class="skill-tag">
+                <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" /> NumPy
+            </span>
+            <span class="skill-tag">
+                <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" /> Keras
+            </span>
+            <span class="skill-tag">
+                <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" /> PyTorch
+            </span>
+            <span class="skill-tag">
+                <img width="20" src="https://static.djangoproject.com/img/logos/django-logo-negative.svg" alt="Django" /> Django
+            </span>
+
+            <!-- Tools -->
+            <span class="skill-tag">
+                <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud" /> Google Cloud
+            </span>
+            <span class="skill-tag">
+                <i class="fa-brands fa-aws" style="color: #f8be47;"></i> AWS
+            </span>
+            <span class="skill-tag">
+                <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" /> VSCode
+            </span>
+            <span class="skill-tag">
+                <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" alt="Vim" /> Vim
+            </span>
+            <span class="skill-tag">
+                <img width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" alt="Ruby on Rails" /> Ruby on Rails
+            </span>
+        </div>
+        </section>
+    <section id="projects">
+    <h2 style="font-size: 2rem;">Projects</h2>
+    <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <script>
+    fetch('projects.json')
+        .then(res => res.json())
+        .then(projects => {
+        const grid = document.getElementById('projectGrid');
+        projects.forEach(proj => {
+            const id = proj.title.toLowerCase().replace(/\s+/g, '-');
+            const card = document.createElement('a');
+            card.className = 'project-card';
+            card.href = `project.html?id=${id}`;
+            card.innerHTML = `
+            <img src="${proj.image}" alt="${proj.title} Screenshot" />
+            <div class="project-info">
+                <h3>${proj.title}</h3>
+                <p>${proj.description}</p>
+            </div>`;
+            grid.appendChild(card);
+        });
+        })
+        .catch(err => console.error('Error loading projects.json:', err));
+    </script>
+
+    <section id="contact">
+    <h2 style="font-size: 2rem;">Let's Connect</h2>
+    <p>Open to projects, opportunities, or just nerdy conversations.</p>
+    <p>See the sidebar for all my socials. Some are not good. Don't bother with them.</p>
+    
+    </section>
+    <footer>
+      <p>&copy; 2025. Built by Kaushal with AI🤖</p>
+    </footer>
+  </div>
+</body>
+</html>
