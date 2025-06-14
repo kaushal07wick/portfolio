@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaushal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg-dark: #000;
+      --text-primary: #fff;
+      --border: #333;
+    }
+
+    body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-primary);
+      line-height: 1.5;
+    }
+
+    .main-content {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 5rem 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      text-align: left;
+    }
+
+    section h2 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .intro-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .intro-text h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+
+    .dropdown-nav {
+      position: absolute;
+      top: 110px;
+      right: 0;
+      background: rgba(0, 0, 0, 0.8);
+      border: 1px solid #333;
+      backdrop-filter: blur(10px);
+      border-radius: 1rem;
+      padding: 0.75rem;
+      display: none;
+      flex-direction: column;
+      gap: 0.5rem;
+      z-index: 1001;
+    }
+
+    .dropdown-nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background 0.3s ease;
+      position: relative;
+    }
+
+    .dropdown-nav a:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .dropdown-nav a::after {
+      content: attr(data-label);
+      position: absolute;
+      left: 45px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, 0.9);
+      color: white;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      white-space: nowrap;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s;
+      z-index: 1002;
+    }
+
+    .dropdown-nav a:hover::after {
+      opacity: 1;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 100%;
+      height: 300px;
+      border: none;
+      background: transparent;
+    }
+
+    .intro-animation {
+      width: 100%;
+      height: 300px;
+      background: linear-gradient(45deg, #1a1a1a, #333);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      overflow: hidden;
+    }
+
+    .intro-animation iframe {
+      border-radius: 8px;
+    }
+
+    .experience-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .experience-item {
+      background: transparent;
+      border: none;
+      padding: 0;
+    }
+
+    .experience-item[open] {
+      background: transparent;
+    }
+
+    .experience-item summary {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      padding-top: 14px;
+    }
+
+    .experience-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .exp-left {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    .exp-logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 2px
+    }
+
+    .exp-meta {
+      font-size: small;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .exp-meta span:first-child {
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      position: relative;
+    }
+
+    .exp-meta span:first-child:hover .arrow {
+      opacity: 1;
+    }
+
+    .exp-meta span:last-child {
+      font-size: 0.85rem;
+
+    }
+    .exp-date {
+      font-size: small;
+      font-size: 0.8rem;
+      color: #aaa;
+      white-space: nowrap;
+    }
+
+    .exp-description {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+
+      margin-left: 56px;
+    }
+
+    .arrow {
+      transition: all 0.3s ease;
+      font-size: 0.8rem;
+      color: #aaa;
+      opacity: 0;
+    }
+
+    details[open] .arrow {
+      transform: rotate(90deg);
+      opacity: 1;
+    }
+
+    footer {
+      padding: 1rem 0;
+      font-size: 0.75rem;
+      color: #666;
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+      .main-content {
+        padding: 1.5rem 1rem;
+      }
+      
+      .intro-text h1 {
+        font-size: 2rem;
+      }
+      
+      .intro-header {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="main-content">
+    <section id="home">
+      <div class="intro-header">
+        <div class="intro-text">
+          <h1>Hi, Kaushal here</h1>
+          <p>Sliding on the Gradient Slope.</p>
+        </div>
+        <div style="position: relative;">
+          <img src="images/pfp.jpg" alt="Kaushal" class="profile-pic" onclick="toggleDropdown()" />
+          <div class="dropdown-nav" id="dropdownNav">
+            <a href="https://x.com/ofcboogeyman" data-label="Twitter" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://github.com/kaushal07wick" data-label="Github" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://medium.com/@kaushalc64" data-label="Medium" target="_blank"><i class="fab fa-medium"></i></a>
+            <a href="mailto:kaushalc64@gmail.com" data-label="Gmail" target="_blank"><i class="fa fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/11kaushalkumar/" data-label="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="intro-animation">
+        <iframe src="anim.html"></iframe>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p style="font-size: medium;  color: #9b9191; ">
+        Machine Learning Engineer with expertise in MLOps, fine-tuning, RAG, AI Agents, and custom model creation from scratch. I occasionally contribute to open source software.
+      </p>
+    </section>
+
+    <section id="experience">
+      <h2>Industry</h2>
+      <div class="experience-list">
+        <details class="experience-item">
+          <summary>
+            <div class="exp-left">
+              <img src="images/sm.jpg" alt="Company Logo" class="exp-logo" />
+              <div class="exp-meta">
+                <span>Smallest.ai<i class="fas fa-angle-right arrow"></i></span>
+                <span style="font-size: small;">Technical Writer</span>
+              </div>
+            </div>
+            <span class="exp-date">June 2024 - August 2024</span>
+          </summary>
+          <div class="exp-description" style=" font-size: small;">
+            Authored SEO optimized blogs, articles and documentations.
+          </div>
+        </details>
+      </div>
+      <div class="experience-list">
+        <details class="experience-item">
+          <summary>
+            <div class="exp-left">
+              <img src="images/tml.png" alt="Company Logo" class="exp-logo" />
+              <div class="exp-meta">
+                <span>TurboML <i class="fas fa-angle-right arrow"></i></span>
+                <span style="font-size: small;">Technical Writer</span>
+              </div>
+            </div>
+            <span class="exp-date">June 2024 - August 2024</span>
+          </summary>
+          <div class="exp-description" style=" font-size: small;">
+            Created API Documentation, manuals and tutorials for framework.
+          </div>
+        </details>
+      </div>
+      <div class="experience-list">
+        <details class="experience-item">
+          <summary>
+            <div class="exp-left">
+              <img src="images/lance.png" alt="Company Logo" class="exp-logo" />
+              <div class="exp-meta">
+                <span>LanceDB (YC W22) <i class="fas fa-angle-right arrow"></i></span>
+                <span style="font-size: small;" >ML Consultant</span>
+              </div>
+            </div>
+            <span class="exp-date">June 2024 - August 2024</span>
+          </summary>
+          <div class="exp-description" style=" font-size: small;">
+            Authored technical articles, live examples, integrations with other frameworks such as llamaindex and langchain.
+          </div>
+        </details>
+      </div>
+        <div class="experience-list">
+        <details class="experience-item">
+          <summary>
+            <div class="exp-left">
+              <img src="images/fisc.jpg" alt="Company Logo" class="exp-logo" />
+              <div class="exp-meta">
+                <span>FISClouds<i class="fas fa-angle-right arrow"></i></span>
+                <span style="font-size: small;"> ML Engineer</span>
+              </div>
+            </div>
+            <span class="exp-date">June 2024 - August 2024</span>
+          </summary>
+          <div class="exp-description" style=" font-size: small;">
+            Created ML pipelines for recommendation system, migrated entire ML pipeline to Google Vertex.
+          </div>
+        </details>
+      </div>
+      <div class="experience-list">
+        <details class="experience-item">
+          <summary>
+            <div class="exp-left">
+              <img src="images/grene.png" alt="Company Logo" class="exp-logo" />
+              <div class="exp-meta">
+                <span>Grene Robotics<i class="fas fa-angle-right arrow"></i></span>
+                <span  style="font-size: small;" >Software Engineer</span>
+              </div>
+            </div>
+            <span class="exp-date">June 2024 - August 2024</span>
+          </summary>
+          <div class="exp-description" style=" font-size: small;">
+            Wrote optimized system software for autonomous drones, effectively increasing the speed from 60kmph to 90kmph.
+          </div>
+        </details>
+      </div>
+      <div class="experience-list">
+        <details class="experience-item">
+          <summary>
+            <div class="exp-left">
+              <img src="images/tec.png" alt="Company Logo" class="exp-logo" />
+              <div class="exp-meta">
+                <span>Technocolabs Softwares <i class="fas fa-angle-right arrow"></i></span>
+                <span  style="font-size: small;">Data Analyst Intern</span>
+              </div>
+            </div>
+            <span class="exp-date">June 2024 - August 2024</span>
+          </summary>
+          <div class="exp-description" style=" font-size: small;">
+            Managed a team DA interns and created a full data pipeline to production.
+          </div>
+        </details>
+      </div>
+      
+    </section>
+    <section id="experience">
+      <h2>Research</h2>
+      <div class="experience-list">
+        <details class="experience-item">
+          <summary>
+            <div class="exp-left">
+              <img src="images/iiith.jpg" alt="Company Logo" class="exp-logo" />
+              <div class="exp-meta">
+                <span>IIIT Hyderabad<i class="fas fa-angle-right arrow"></i></span>
+                <span  style="font-size: small;">Robotics Research Intern</span>
+              </div>
+            </div>
+            <span class="exp-date">June 2024 - August 2024</span>
+          </summary>
+          <div class="exp-description" style=" font-size: small;">
+            Research on autonomous UAV using deep learning to fly in cluttered environment.
+          </div>
+        </details>
+      </div>
+      <div class="experience-list">
+        <details class="experience-item">
+          <summary>
+            <div class="exp-left">
+              <img src="images/uoh.png" alt="Company Logo" class="exp-logo" />
+              <div class="exp-meta">
+                <span>University of Hyderabad <i class="fas fa-angle-right arrow"></i></span>
+                <span  style="font-size: small;" >IASC-INSA-NASI Summer Research Fellow</span>
+              </div>
+            </div>
+            <span class="exp-date">June 2024 - August 2024</span>
+          </summary>
+          <div class="exp-description" style=" font-size: small;">
+            Survey on various computer vision models for inferencing on traffic signs and hoardings.
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Let's Connect</h2>
+      <p>
+        Open to projects, opportunities, or just nerdy conversations. 
+        Click on the Profile pic to get all my socials.
+    </section>
+      <div style="text-align: center; margin: 2rem 0; font-size: 1rem; color: #555;">
+  <span style="display: inline-block; position: relative;">
+    <span style="margin: 0 1rem;">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</span>
+    <i class="fa fa-circle" style="font-size: 0.4rem; color: #aaa;"></i>
+    <span style="margin: 0 1rem;">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</span>
+  </span>
+</div>
+
+    <footer>
+      <p>&copy; 2025. Built by Kaushal with AI 🤖</p>
+    </footer>
+  </div>
+
+  <script>
+    function toggleDropdown() {
+      const dropdown = document.getElementById('dropdownNav');
+      dropdown.style.display = dropdown.style.display === 'flex' ? 'none' : 'flex';
+    }
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(event) {
+      const dropdown = document.getElementById('dropdownNav');
+      const profilePic = document.querySelector('.profile-pic');
+      
+      if (!dropdown.contains(event.target) && !profilePic.contains(event.target)) {
+        dropdown.style.display = 'none';
+      }
+    });
+  </script>
+
+</body>
+
+</html>
+

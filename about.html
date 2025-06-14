@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body, html {
+      font-family: "Inter", sans-serif;
+      background-color: #f5f5f5;
+      scroll-behavior: smooth;
+    }
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .grid-background {
+      background-image: linear-gradient(to right, #e5e7eb 1px, transparent 1px),
+                        linear-gradient(to bottom, #e5e7eb 1px, transparent 1px);
+      background-size: 100px 100px;
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .animate-from-bottom {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.9s forwards;
+      animation-delay: var(--delay, 0s);
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+        filter: blur(4px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Centered wrapper -->
+  <div class="relative min-h-screen max-w-4xl mx-auto px-6 md:px-12 py-20 flex items-center">
+
+    <!-- Grid Background -->
+    <div class="grid-background rounded-3xl"></div>
+
+    <!-- Content Layer -->
+    <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center animate-from-bottom" style="--delay: 0.2s">
+      
+      <!-- Text Content -->
+      <div>
+        <p class="text-sm uppercase tracking-wider text-gray-500 mb-3">Who I Am</p>
+        <h1 class="text-4xl font-bold text-gray-900 mb-6">About <span class="text-black">Me</span></h1>
+        <p class="text-lg text-gray-700 leading-relaxed">
+          I'm <span class="text-black font-medium">Kaushal</span>, a developer and designer blending 
+          <span class="text-black font-semibold">engineering</span> with 
+          <span class="text-black font-semibold">creative design</span>. I help teams craft fast, accessible UIs and intuitive experiences.
+        </p>
+        <p class="mt-4 text-gray-500">
+          I enjoy sketching, building visual tools, and exploring the edge of tech and art.
+        </p>
+
+        <!-- Social Section -->
+        <div class="mt-12 animate-from-bottom" style="--delay: 1.2s">
+          <p class="text-sm uppercase tracking-wider text-gray-500 mb-3">OR FIND ME COOKING ON</p>
+          <div class="flex space-x-6 mt-4 items-center">
+            <a href="mailto:kaushalc64@gmail.com" class="hover:opacity-80 transition" target="_blank" title="Email">
+              <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="h-6 w-6 grayscale" />
+            </a>
+            <a href="https://linkedin.com/in/11kaushalkumar" target="_blank" class="hover:opacity-80 transition" title="LinkedIn">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="LinkedIn" class="h-6 w-6" />
+            </a>
+            <a href="https://twitter.com/ofcboogeyman" target="_blank" class="hover:opacity-80 transition" title="Twitter">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" alt="Twitter" class="h-6 w-6"/>
+            </a>
+            <a href="https://github.com/kaushal07wick" target="_blank" class="hover:opacity-80 transition" title="GitHub">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="h-6 w-6" />
+            </a>
+            <a href="https://medium.com/@kaushalc64" target="_blank" class="hover:opacity-80 transition" title="Medium">
+              <img src="https://cdn-icons-png.flaticon.com/512/2111/2111505.png" alt="Medium" class="h-6 w-6 grayscale" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image / GIF -->
+      <div class="flex justify-center md:justify-end items-center">
+        <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDBlNHU0MXI4d3o3eXY0OWszdTY1MzY2eGlqaHFqM3k1NzFta3B5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hDSy8w6rGHeTe/giphy.gif" alt="Working Kaushal" class="rounded-2xl shadow w-80 h-auto object-cover">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
